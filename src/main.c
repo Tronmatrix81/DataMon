@@ -1,8 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "load_game.h"
-#include "new_game.h"
-#include "stats.h"
 
 #ifdef _WIN32
 #define CLEAR system("cls")
