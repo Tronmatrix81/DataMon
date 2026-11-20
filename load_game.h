@@ -1,3 +1,6 @@
+#include "game.h"
+
 int loadGame() {
-    return 0;
+    // cargar datos guardados
+    play();
 }
