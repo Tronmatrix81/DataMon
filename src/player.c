@@ -62,28 +62,55 @@ void add_pokemon(Pokemon pokemon)
     printf("\nUnable to add pokemon to team...\n");
 }
 
+void sync_fighter_to_team(void)
+{
+    for (int i = 0; i < player.pokemonTeam.size; i++)
+    {
+        if (strcmp(player.pokemonTeam.pokemons[i].name, player.pokemonTeam.fighter.name) == 0)
+        {
+            player.pokemonTeam.pokemons[i] = player.pokemonTeam.fighter;
+            return;
+        }
+    }
+}
+
 void select_fighter(char name[50])
 {
+    // 1. Guardar el HP actual del peleador que sale antes de cambiarlo
+    sync_fighter_to_team();
+
     for (int i = 0; i < player.pokemonTeam.size; i++)
     {
         if (strcmp(player.pokemonTeam.pokemons[i].name, name) == 0)
         {
+            if (player.pokemonTeam.pokemons[i].hp <= 0)
+            {
+                printf("\n%s esta debilitado (0 HP) y no puede pelear.\n", name);
+                return;
+            }
             player.pokemonTeam.fighter = player.pokemonTeam.pokemons[i];
+            printf("\n¡Adelante, %s!\n", player.pokemonTeam.fighter.name);
             return;
         }
     }
-    printf("\nUnable to find %s, error.", name);
+    printf("\nNo se encontro a %s en tu equipo.\n", name);
 }
 
-void use_potion(char name[50])
+int use_potion_on(const char *potionName, Pokemon *target)
 {
     for (int i = 0; i < player.backpack.itemQuantity; i++)
     {
-        if (strcmp(player.backpack.items[i].name, name) == 0)
+        if (strcmp(player.backpack.items[i].name, potionName) == 0 &&
+            player.backpack.items[i].quantity > 0)
         {
-            player.pokemonTeam.fighter.hp += player.backpack.items[i].health;
-            player.backpack.items[i].quantity--;
+            int maxHp = target->lvl * 3 + 20;
+            target->hp += player.backpack.items[i].health;
+            if (target->hp > maxHp)
+            {
+                target->hp = maxHp;
+            }
 
+            player.backpack.items[i].quantity--;
             if (player.backpack.items[i].quantity <= 0)
             {
                 for (int j = i; j < player.backpack.itemQuantity - 1; j++)
@@ -92,8 +119,22 @@ void use_potion(char name[50])
                 }
                 player.backpack.itemQuantity--;
             }
-            return;
+
+            // Si el curado era el peleador activo, actualizar también fighter
+            if (strcmp(target->name, player.pokemonTeam.fighter.name) == 0)
+            {
+                player.pokemonTeam.fighter.hp = target->hp;
+            }
+            return 1;
         }
     }
-    printf("\nUnable to find %s, error.", name);
+    return 0;
+}
+
+void use_potion(char name[50])
+{
+    if (!use_potion_on(name, &player.pokemonTeam.fighter))
+    {
+        printf("\nNo tienes %s en la mochila.\n", name);
+    }
 }

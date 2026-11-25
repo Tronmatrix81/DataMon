@@ -1,13 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "../include/storage.h"
-#include "../include/models.h"
-#include "../include/utils.h"
-#include "../include/game.h"
-
-// temporary
-#include <time.h>
+#include "storage.h"
+#include "models.h"
+#include "utils.h"
+#include "game.h"
 
 #ifdef _WIN32
     #include <windows.h>
@@ -55,20 +52,20 @@ void saveGame(Player player) {
 
     updateRanking(&player); // Actualiza el ranking antes de guardar el juego
 
-    char filePath[] = "../saves/";
-    strcat(filePath, player.name);
+    char filePath[100];
+    snprintf(filePath, sizeof(filePath), "saves/%s.txt", player.name);
     FILE *save = fopen(filePath, "wt");
 
     if (save != NULL)
     {
         fprintf(save, "%s\n", player.name);
-        fprintf(save, "EQUIPO %i\n", player.pokemonTeam.size);
+        fprintf(save, "EQUIPO %d\n", player.pokemonTeam.size);
 
-        for (int i = 0; i < player.pokemonTeam.size; i++) fprintf(save, "- %s %i %i %i\n", player.pokemonTeam.pokemons[i].name, player.pokemonTeam.pokemons[i].lvl, player.pokemonTeam.pokemons[i].hp);
+        for (int i = 0; i < player.pokemonTeam.size; i++) fprintf(save, "- %s %d %d\n", player.pokemonTeam.pokemons[i].name, player.pokemonTeam.pokemons[i].lvl, player.pokemonTeam.pokemons[i].hp);
 
-        fprintf(save, "MOCHILA %i\n", player.backpack.itemQuantity);
+        fprintf(save, "MOCHILA %d\n", player.backpack.itemQuantity);
         
-        for (int i = 0; i < player.backpack.itemQuantity; i++) fprintf(save, "- %s %i\n", player.backpack.items[i].name, player.backpack.items[i].quantity);
+        for (int i = 0; i < player.backpack.itemQuantity; i++) fprintf(save, "- %s %d\n", player.backpack.items[i].name, player.backpack.items[i].quantity);
 
         fclose(save);
     }
@@ -77,8 +74,8 @@ void saveGame(Player player) {
 void loadGame(Player *player) {
     printf("Cargando el juego...\n");
 
-    char filePath[] = "../saves/";
-    strcat(filePath, player->name);
+    char filePath[100];
+    snprintf(filePath, sizeof(filePath), "saves/%s.txt", player->name);
     FILE *save = fopen(filePath, "rt");
 
     if (save == NULL)
@@ -91,15 +88,13 @@ void loadGame(Player *player) {
     fscanf(save, "EQUIPO %d", &player->pokemonTeam.size);
     for (int i = 0; i < player->pokemonTeam.size; i++)
     {
-        fscanf(save, "- %s %d %d %d",
+        fscanf(save, "- %s %d %d",
                player->pokemonTeam.pokemons[i].name,
                &player->pokemonTeam.pokemons[i].lvl,
                &player->pokemonTeam.pokemons[i].hp);
     }
 
     fclose(save);
-
-    gameMenu(player);
 }
 
 void readStats() {
@@ -184,7 +179,7 @@ void updateRanking(Player *player) {
 
 Pokemon *searchPokemon(const char *name)
 {
-    FILE *arch = fopen("../data/pokemons.txt", "rt");
+    FILE *arch = fopen("data/pokemons.txt", "rt");
     Pokemon *pokemon = (Pokemon *)malloc(sizeof(Pokemon));
     if (pokemon == NULL)
         return NULL;
@@ -218,9 +213,8 @@ Pokemon *searchPokemon(const char *name)
 
 Pokemon *randomPokemon()
 {
-    FILE *arch = fopen("../data/pokemons.txt", "rt");
+    FILE *arch = fopen("data/pokemons.txt", "rt");
     Pokemon *pokemon = (Pokemon *)malloc(sizeof(Pokemon));
-    srand(time(NULL));
     int random = random2(0, 1037);
     if (pokemon == NULL)
         return NULL;

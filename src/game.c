@@ -47,8 +47,6 @@ void newGame(void) {
     printf("Listo para empezar tu aventura!\n");
     printf("\nPresione Enter para continuar...");
     getchar();
-
-    gameMenu(&player);
 }
 
 void gameMenu(Player *p) {

@@ -1,14 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <time.h>
 #include "../include/models.h"
 #include "../include/player.h"
 #include "../include/storage.h"
 
-
-#define MAX_POKEMONES 1038
 void asociardañomovimientos(Pokemon *poke);
+
 void limpiar_buffer(void)
 {
     int c = getchar();
@@ -18,49 +16,23 @@ void limpiar_buffer(void)
     }
 }
 
-int leer_especies(Species lista[])
+Pokemon generar_salvaje(void)
 {
-    FILE *archivo = fopen("../data/pokemons.txt", "rt");
-    int total = 0;
+    Pokemon salvaje = {0};
+    Pokemon *p = randomPokemon();
 
-    if (archivo == NULL)
+    if (p == NULL)
     {
-        return 0;
+        return salvaje; // lvl == 0 indica error de carga
     }
 
-    while (total < MAX_POKEMONES &&
-           fscanf(archivo, "%s %s %s %s %s %s",
-                  lista[total].name,
-                  lista[total].type,
-                  lista[total].movements[0].movimiento,
-                  lista[total].movements[1].movimiento,
-                  lista[total].movements[2].movimiento,
-                  lista[total].movements[3].movimiento) == 6)
-    {
-        total++;
-    }
+    salvaje = *p;
+    free(p);
 
-    fclose(archivo);
-    return total;
-}
-
-Pokemon generar_salvaje(Species lista[], int total)
-{
-    Pokemon salvaje;
-    int idx = rand() % total;
-
-    strcpy(salvaje.name, lista[idx].name);
-    strcpy(salvaje.type, lista[idx].type);
-    salvaje.lvl = 1 + rand() % 50;
-    salvaje.hp = 20 + salvaje.lvl * 2;
-
-    for (int i = 0; i < 4; i++)
-    {
-        strcpy(salvaje.movements[i].movimiento, lista[idx].movements[i].movimiento);
-        salvaje.movements[i].daño = 0;
-    }
-
+    salvaje.lvl = 1 + rand() % 35;
+    salvaje.hp = salvaje.lvl * 3 + 20;
     asociardañomovimientos(&salvaje);
+
     return salvaje;
 }
 
@@ -79,9 +51,15 @@ int luchar_salvaje(int vida)
 
 void capturar_pokemon(Pokemon salvaje)
 {
-    salvaje.hp = 20 + salvaje.lvl * 2;
+    if (player.pokemonTeam.size >= 6)
+    {
+        printf("\nTu equipo ya esta lleno (6/6), no puedes capturar mas DataMons.\n");
+        return;
+    }
+
+    salvaje.hp = salvaje.lvl * 3 + 20;
     add_pokemon(salvaje);
-    printf("\n¡Capturaste a %s nivel %d y se agregó a tu equipo!\n", salvaje.name, salvaje.lvl);
+    printf("\n¡Capturaste a %s nivel %d y se agrego a tu equipo!\n", salvaje.name, salvaje.lvl);
 }
 
 void mostrar_menu_captura(Pokemon salvaje)
@@ -97,35 +75,22 @@ void mostrar_menu_captura(Pokemon salvaje)
         printf("2. Capturar\n");
     }
     printf("3. Huir\n");
-    printf("Elige una opción: ");
+    printf("Elige una opcion: ");
 }
 
 void buscar_pokemon(void)
 {
-    static Species especies[MAX_POKEMONES];
-    static int total = 0;
-    static int semilla_lista = 0;
     int opcion;
     int terminar = 0;
 
-    if (semilla_lista == 0)
+    Pokemon salvaje = generar_salvaje();
+    if (salvaje.lvl == 0)
     {
-        srand(time(NULL));
-        semilla_lista = 1;
+        printf("No se pudo generar un DataMon salvaje (revisa data/pokemons.txt).\n");
+        return;
     }
 
-    if (total == 0)
-    {
-        total = leer_especies(especies);
-        if (total == 0)
-        {
-            printf("No se pudo leer ../data/pokemons.txt.\n");
-            return;
-        }
-    }
-
-    Pokemon salvaje = generar_salvaje(especies, total);
-    printf("\n¡Apareció un %s (%s) nivel %d!\n", salvaje.name, salvaje.type, salvaje.lvl);
+    printf("\n¡Aparecio un %s (%s) nivel %d!\n", salvaje.name, salvaje.type, salvaje.lvl);
 
     while (terminar == 0)
     {
@@ -133,9 +98,9 @@ void buscar_pokemon(void)
 
         if (scanf("%d", &opcion) != 1)
         {
-            limpiar_buffer();
             opcion = 0;
         }
+        limpiar_buffer(); // Evita que quede '\n' atorado al volver a gameMenu()
 
         if (opcion == 1)
         {
@@ -149,14 +114,14 @@ void buscar_pokemon(void)
             }
             else
             {
-                printf("\n%s ya está debilitado, ¡captúralo!\n", salvaje.name);
+                printf("\n%s ya esta debilitado, ¡capturalo!\n", salvaje.name);
             }
         }
         else if (opcion == 2)
         {
             if (salvaje.hp > 0)
             {
-                printf("\nNo puedes capturarlo todavía, primero debes luchar hasta que su vida sea 0.\n");
+                printf("\nNo puedes capturarlo todavia, primero debes luchar hasta que su vida sea 0.\n");
             }
             else
             {
@@ -171,7 +136,7 @@ void buscar_pokemon(void)
         }
         else
         {
-            printf("\nOpción no válida.\n");
-        }   
+            printf("\nOpcion no valida.\n");
+        }
     }
 }
