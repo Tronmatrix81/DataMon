@@ -80,18 +80,48 @@ void loadGame(Player *player) {
 
     if (save == NULL)
     {
-        printf("Error al cargar partida...");
+        printf("Error al cargar partida (no existe %s)...\n", filePath);
         return;
     }
 
-    fscanf(save, "%s", player->name);
-    fscanf(save, "EQUIPO %d", &player->pokemonTeam.size);
-    for (int i = 0; i < player->pokemonTeam.size; i++)
+    char name[30];
+    int size = 0;
+    if (fscanf(save, "%29s", name) != 1 || fscanf(save, " EQUIPO %d", &size) != 1 || size < 0 || size > 6)
     {
-        fscanf(save, "- %s %d %d",
-               player->pokemonTeam.pokemons[i].name,
-               &player->pokemonTeam.pokemons[i].lvl,
-               &player->pokemonTeam.pokemons[i].hp);
+        printf("Archivo de partida danado...\n");
+        fclose(save);
+        return;
+    }
+    strcpy(player->name, name);
+    player->pokemonTeam.size = 0;
+
+    for (int i = 0; i < size; i++)
+    {
+        char pname[40];
+        int lvl, hp;
+        if (fscanf(save, " - %39s %d %d", pname, &lvl, &hp) != 3) break;
+
+        // Recupera tipo y movimientos desde data/pokemons.txt
+        Pokemon *base = searchPokemon(pname);
+        Pokemon *dst = &player->pokemonTeam.pokemons[player->pokemonTeam.size];
+        if (base != NULL) { *dst = *base; free(base); }
+        else { memset(dst, 0, sizeof(Pokemon)); strcpy(dst->name, pname); }
+        dst->lvl = lvl;
+        dst->hp = hp;
+        player->pokemonTeam.size++;
+    }
+
+    player->backpack.itemQuantity = 0;
+    int items = 0;
+    if (fscanf(save, " MOCHILA %d", &items) == 1)
+    {
+        for (int i = 0; i < items && player->backpack.itemQuantity < 5; i++)
+        {
+            Items *it = &player->backpack.items[player->backpack.itemQuantity];
+            if (fscanf(save, " - %34s %d", it->name, &it->quantity) != 2) break;
+            it->health = 25;
+            player->backpack.itemQuantity++;
+        }
     }
 
     fclose(save);
@@ -177,69 +207,59 @@ void updateRanking(Player *player) {
     fclose(arch);
 }
 
+// Lee una linea de data/pokemons.txt y la convierte en Pokemon (sin nivel/HP). Devuelve 1 si OK.
+static int parsePokemonLine(const char *line, Pokemon *p)
+{
+    return sscanf(line, "%39s %19s %49s %49s %49s %49s",
+                  p->name, p->type,
+                  p->movements[0].movimiento, p->movements[1].movimiento,
+                  p->movements[2].movimiento, p->movements[3].movimiento) == 6;
+}
+
 Pokemon *searchPokemon(const char *name)
 {
     FILE *arch = fopen("data/pokemons.txt", "rt");
-    Pokemon *pokemon = (Pokemon *)malloc(sizeof(Pokemon));
-    if (pokemon == NULL)
-        return NULL;
-    if (arch != NULL)
+    if (arch == NULL) return NULL;
+
+    Pokemon *pokemon = (Pokemon *)calloc(1, sizeof(Pokemon));
+    if (pokemon == NULL) { fclose(arch); return NULL; }
+
+    while (fgets(buffer, sizeof(buffer), arch) != NULL)
     {
-        for (int i = 0; i < 1037; i++)
+        if (parsePokemonLine(buffer, pokemon) && strcmp(pokemon->name, name) == 0)
         {
-            if (fgets(buffer, sizeof(buffer), arch) != NULL)
-            {
-                sscanf(buffer, "%s %s %s %s %s %s",
-       pokemon->name,
-       pokemon->type,
-       pokemon->movements[0].movimiento,
-       pokemon->movements[1].movimiento,
-       pokemon->movements[2].movimiento,
-       pokemon->movements[3].movimiento);
-                if (strcmp(pokemon->name, name) == 0)
-                {
-                    pokemon->lvl = random2(1, 100);
-                    pokemon->hp = random2(1, 3) * pokemon->lvl;
-                    fclose(arch);
-                    return pokemon;
-                }
-            }
+            pokemon->lvl = random2(1, 100);
+            pokemon->hp = random2(1, 3) * pokemon->lvl;
+            fclose(arch);
+            return pokemon;
         }
-        fclose(arch);
     }
+    fclose(arch);
     free(pokemon);
     return NULL;
 }
 
-Pokemon *randomPokemon()
+Pokemon *randomPokemon(void)
 {
     FILE *arch = fopen("data/pokemons.txt", "rt");
-    Pokemon *pokemon = (Pokemon *)malloc(sizeof(Pokemon));
-    int random = random2(0, 1037);
-    if (pokemon == NULL)
-        return NULL;
-    if (arch != NULL)
+    if (arch == NULL) return NULL;
+
+    Pokemon *pokemon = (Pokemon *)calloc(1, sizeof(Pokemon));
+    if (pokemon == NULL) { fclose(arch); return NULL; }
+
+    // Seleccion uniforme sin conocer el total de lineas (reservorio)
+    int count = 0;
+    Pokemon temp;
+    while (fgets(buffer, sizeof(buffer), arch) != NULL)
     {
-        for (int i = 0; i < random; i++)
+        if (parsePokemonLine(buffer, &temp))
         {
-            if (fgets(buffer, sizeof(buffer), arch) != NULL)
-            {
-                if (i == random - 1)
-                {
-                   sscanf(buffer, "%s %s %s %s %s %s",
-       pokemon->name,
-       pokemon->type,
-       pokemon->movements[0].movimiento,
-       pokemon->movements[1].movimiento,
-       pokemon->movements[2].movimiento,
-       pokemon->movements[3].movimiento);
-                    fclose(arch);
-                    return pokemon;
-                }
-            }
+            count++;
+            if (random2(1, count) == 1) *pokemon = temp;
         }
-        fclose(arch);
     }
-    free(pokemon);
-    return NULL;
+    fclose(arch);
+
+    if (count == 0) { free(pokemon); return NULL; }
+    return pokemon;
 }

@@ -1,0 +1,6 @@
+queso
+EQUIPO 2
+- Clobbopus 5 35
+- Shroomish 8 44
+MOCHILA 1
+- healthPotion 1

@@ -10,7 +10,7 @@ void loadGame(Player *player);
 void readRanking();
 void readStats(void);
 void updateRanking(Player *player);
-Pokemon *searchPokemon();
-Pokemon *randomPokemon();
+Pokemon *searchPokemon(const char *name);
+Pokemon *randomPokemon(void);
 
 #endif

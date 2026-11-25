@@ -9,6 +9,7 @@
 #include "../include/player.h"
 
 void asociardañomovimientos(Pokemon *poke);
+void buscar_pokemon(void);
 
 void newGame(void) {
     printf("DATAMON - NUEVO JUEGO\n");
@@ -69,28 +70,10 @@ void gameMenu(Player *p) {
             print_team();
             break;
 
-        case 1: { // 2) Buscar DataMon salvaje
+        case 1: // 2) Buscar DataMon salvaje (hay que debilitarlo para capturarlo)
             printf(VERDE "\nBuscando DataMon salvaje en la hierba...\n" RESET);
-            Pokemon *salvaje = randomPokemon();
-            if (salvaje != NULL) {
-                salvaje->lvl = random2(1, 20);
-                salvaje->hp = random2(1, 3) * salvaje->lvl + 15;
-                asociardañomovimientos(salvaje);
-                printf("Aparecio un %s salvaje (Nv. %d | HP: %d)!\n",
-                       salvaje->name, salvaje->lvl, salvaje->hp);
-
-                if (p->pokemonTeam.size < 6) {
-                    add_pokemon(*salvaje);
-                    printf(VERDE "Capturaste a %s!\n" RESET, salvaje->name);
-                } else {
-                    printf(AMARILLO "Tu equipo esta lleno (6/6).\n" RESET);
-                }
-                free(salvaje);
-            } else {
-                printf(ROJO "No aparecieron DataMons (revisa ../data/pokemons.txt).\n" RESET);
-            }
+            buscar_pokemon();
             break;
-        }
 
         case 2: // 3) Ir a Arena
             printf(ROJO "\nEntrando a la Arena de combate...\n" RESET);

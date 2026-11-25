@@ -1,6 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
+#include <ctype.h>
 #include "../include/models.h"
 #include "../include/player.h"
 Player player;
@@ -74,26 +75,49 @@ void sync_fighter_to_team(void)
     }
 }
 
+static int iguales_sin_mayusculas(const char *a, const char *b)
+{
+    while (*a && *b)
+    {
+        if (tolower((unsigned char)*a) != tolower((unsigned char)*b)) return 0;
+        a++; b++;
+    }
+    return *a == *b;
+}
+
 void select_fighter(char name[50])
 {
     // 1. Guardar el HP actual del peleador que sale antes de cambiarlo
     sync_fighter_to_team();
 
-    for (int i = 0; i < player.pokemonTeam.size; i++)
+    // 2. Acepta el numero de la lista (1, 2, ...) o el nombre (sin importar mayusculas)
+    int idx = -1;
+    char *fin;
+    long n = strtol(name, &fin, 10);
+    if (*name != '\0' && *fin == '\0')
     {
-        if (strcmp(player.pokemonTeam.pokemons[i].name, name) == 0)
+        if (n >= 1 && n <= player.pokemonTeam.size) idx = (int)n - 1;
+    }
+    else
+    {
+        for (int i = 0; i < player.pokemonTeam.size; i++)
         {
-            if (player.pokemonTeam.pokemons[i].hp <= 0)
-            {
-                printf("\n%s esta debilitado (0 HP) y no puede pelear.\n", name);
-                return;
-            }
-            player.pokemonTeam.fighter = player.pokemonTeam.pokemons[i];
-            printf("\n¡Adelante, %s!\n", player.pokemonTeam.fighter.name);
-            return;
+            if (iguales_sin_mayusculas(player.pokemonTeam.pokemons[i].name, name)) { idx = i; break; }
         }
     }
-    printf("\nNo se encontro a %s en tu equipo.\n", name);
+
+    if (idx < 0)
+    {
+        printf("\nNo se encontro a %s en tu equipo.\n", name);
+        return;
+    }
+    if (player.pokemonTeam.pokemons[idx].hp <= 0)
+    {
+        printf("\n%s esta debilitado (0 HP) y no puede pelear.\n", player.pokemonTeam.pokemons[idx].name);
+        return;
+    }
+    player.pokemonTeam.fighter = player.pokemonTeam.pokemons[idx];
+    printf("\n¡Adelante, %s!\n", player.pokemonTeam.fighter.name);
 }
 
 int use_potion_on(const char *potionName, Pokemon *target)

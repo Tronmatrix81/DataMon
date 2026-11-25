@@ -161,16 +161,21 @@ void arena(void)
                 break;
             case 5:
                 print_team();
-                printf("\nIngrese nombre del nuevo peleador: ");
-                scanf("%49s", choice);
+                printf("\nIngrese numero o nombre del nuevo peleador: ");
+                if (scanf("%49s", choice) != 1) return;
                 getchar();
                 select_fighter(choice);
                 break;
             case 6:
                 print_backpack();
-                printf("\nIngrese nombre de pocion: ");
-                scanf("%49s", choice);
+                printf("\nIngrese numero o nombre de pocion: ");
+                if (scanf("%49s", choice) != 1) return;
                 getchar();
+                {
+                    int num = atoi(choice);
+                    if (num >= 1 && num <= player.backpack.itemQuantity)
+                        strcpy(choice, player.backpack.items[num - 1].name);
+                }
                 use_potion(choice);
                 break;
             default:
@@ -221,7 +226,7 @@ void arena(void)
                     {
                         print_team();
                         printf("\nElige otro DataMon disponible: ");
-                        scanf("%49s", choice);
+                        if (scanf("%49s", choice) != 1) return;
                         getchar();
                         select_fighter(choice);
                     }
