@@ -1,51 +1,33 @@
 #include <stdio.h>
 #include <stdlib.h>
-
-#ifdef _WIN32
-#define CLEAR system("cls")
-#else
-#define CLEAR system("clear")
-#endif
+#include <time.h>
+#include "storage.h"
+#include "player.h"
+#include "game.h"
 
 int main(void) {
-    int opt;
+    int hayPartidas;
+    srand(time(NULL));
+    team = (team*)malloc(sizeof(team)); //asignamos equipo
 
     while(1) {
-        CLEAR;
-        printf("=== DataMon ===\n");
-        printf("1. Nuevo juego\n");
-        printf("2. Cargar juego\n");
-        printf("3. Ranking\n");
-        printf("0. Salir\n");
-        printf("\n-> ");
-        scanf("%d", &opt);
+        hayPartidas = hasSavedGames();
 
-        switch (opt) {
-        case 0:
-            return 0;
+        if (hayPartidas) {
+            const char *opciones[] = {"Cargar juego", "Nuevo juego", "Ranking", "Salir"};
+            int opt = seleccionarMenu("DATAMON - MENU PRINCIPAL", opciones, 4);
 
-        case 1:
-            CLEAR;
-            //newGame();
-            break;
+            if (opt == 0) loadGame();
+            else if (opt == 1) newGame();
+            else if (opt == 2) readRanking();
+            else if (opt == 3) return 0;
+        } else {
+            const char *opciones[] = {"Nuevo juego", "Ranking", "Salir"};
+            int opt = seleccionarMenu("DATAMON - MENU PRINCIPAL", opciones, 3);
 
-        case 2:
-            CLEAR;
-            //loadGame();
-            break;
-
-        case 3:
-            CLEAR;
-            //stats();
-            break;
-        
-        default:
-            printf("Opcion invalida\n");
-            break;
+            if (opt == 0) newGame();
+            else if (opt == 1) readRanking();
+            else if (opt == 2) return 0;
         }
-
-        printf("\nPresione Enter para continuar...");
-        getchar(); // Limpiar el buffer de entrada
-        getchar(); // Esperar a que el usuario presione Enter antes de continuar
     }
 }

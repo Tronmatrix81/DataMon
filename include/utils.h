@@ -1,0 +1,1 @@
+int random2(int min, int max);

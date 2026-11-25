@@ -1,111 +1,75 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
+#include <string.h>
+#include "game.h"
+#include "ui.h"
+#include "storage.h"
+#include "utils.h"
+// #include "battle.h" // Descomentar cuando conectemos el módulo de combate
 
-/*
--Nueva Partida
--Cargar Partida
-        -Ver equipo (mostar todos los datamon que ya ha capturado: nombre, nivel, vida)
-        Buscar DataMon salvaje
-            -Luchar
-            Capturar (Solo se puede capturar si lo debilita después de luchar), al capturar agregar a una estructura (arreglo, lista, tabla hash, arbol)
-            Huir (volver al menu anterior)
+void newGame() {
+    Player player;
+    
+    printf("DATAMON - NUEVO JUEGO\n");
+    printf("Ingrese el nombre de su entrenador: ");
+    fgets(player.name, sizeof(player.name), stdin);
+    player.name[strcspn(player.name, "\n")] = '\0'; // Eliminar el salto de línea
+    player.wins = 0;
+    player.pokemonTeam.size = 0;
+    player.backpack.itemQuantity = 1;
+    strcat(player.backpack.items[0].name, "healthPotion");
+    player.backpack.items[0].quantity = 1;
+    player.backpack.items[0].health = random2(1, 30);
+}
 
+void gameMenu(Player *player) {
+    const char *opciones[] = {
+        "Ver equipo",
+        "Buscar DataMon salvaje",
+        "Ir a Arena",
+        "Ver Mochila",
+        "Centro de curacion",
+        "Guardar partida",
+        "Volver al menu principal"
+    };
 
-        Ir a Arena
-            Ataque rapido
-            Chispa, si se elige, indicar: Bytechu usó Chispa - Rockbit perdió 10 HP (Ustedes determinan la fuerza del ataque, aleatorio o por nivel)
-            Cambiar criatura, elegir otra criatura de tu equipo
-            Usar poción (de la mochila para incrementar vida)
+    while (1) {
+        int opc = seleccionarMenu("DATAMON - EN PARTIDA", opciones, 7);
 
-        Ver Mochila (los objetos se ganan en las peleas en la arena)
-        Centro de curación, recuperar la vida (solo si tiene pociones de vida en la mochila, debe indicar a cual datamon)
-        Guardar partida (guardar el equipo y la mochila en un archivo de nombres dados por el usuario)
-        Volver al menú principal
+        switch (opc) {
+        case 0: // 1) Ver equipo
+            // showTeam(player);
+            printf(CYAN "\nMostrando equipo de %s...\n" RESET, player->name);
+            break;
 
--Ranking
--Salir
+        case 1: // 2) Buscar DataMon salvaje
+            // wildEncounter(player);
+            printf(VERDE "\nBuscando DataMon salvaje en la hierba...\n" RESET);
+            break;
 
+        case 2: // 3) Ir a Arena
+            // startArena(player);
+            printf(ROJO "\nEntrando a la Arena de combate...\n" RESET);
+            break;
 
+        case 3: // 4) Ver Mochila
+            // showBag(player);
+            printf(AMARILLO "\nAbriendo mochila...\n" RESET);
+            break;
 
-*/
+        case 4: // 5) Centro de curacion
+            // healingCenter(player);
+            printf(VERDE "\nBienvenido al Centro de Curacion.\n" RESET);
+            break;
 
-typedef struct pokemon
-{
-    char nombre[50];
-    char t1[50]; // tipo de elemento 1
-    char t2[50]; // tipo de elemento 2
-    int nivel;
-    int vida;
-    struct pokemon *sig;
-} poke;
+        case 5: // 6) Guardar partida
+            saveGame(*player);
+            break;
 
-poke *arreglo[2];
-
-int partidahecha = 0;
-int main(int argc, const char *argv[])
-{
-    int opc = -1, numero;
-    poke *mipoke;
-    srand(time(NULL));
-    char linea[100];
-    FILE *arch = fopen("datamones.txt", "rt");
-
-    while (1)
-    {
-        printf("\n1)Ver equipo (mostar todos los datamon que ya ha capturado: nombre, nivel, vida)\n2)Buscar DataMon salvaje\n3)Ir a Arena\n4)Ver Mochila (los objetos se ganan en las peleas en la arena)\n5)Centro de curación, recuperar la vida (solo si tiene pociones de vida en la mochila, debe indicar a cual datamon)\n6)Guardar partida (guardar el equipo y la mochila en un archivo de nombres dados por el usuario)\n7)Volver al menú principal\n");
-        scanf("%i", &opc);
-        if (partidahecha == 0)
-        {
-            partidahecha = 1;
-
-            numero = rand() % 1037;
-
-            if (arch != NULL)
-            {
-                if (fgets(linea, sizeof(linea), arch) != NULL)
-                {
-                    // sscanf devuelve 3 si encontró: nombre, t1 y t2
-                    // o devuelve 2 si solo encontró: nombre y t1
-                    int leidos = sscanf(linea, "%s %s %s", mipoke->nombre, mipoke->t1, mipoke->t2);
-
-                    if (leidos == 2)
-                    {
-                        // Solo tiene un tipo; dejamos t2 vacío (o puedes poner "Ninguno")
-                        strcpy(mipoke->t2, "");
-                    }
-                }
-            }
+        case 6: // 7) Volver al menu principal
+            return; // Sale del while(1) y regresa a newGame() / loadGame()
         }
 
-        switch (opc)
-        {
-        case 1:
-            /* code */
-            break;
-        case 2:
-            /* code */
-            break;
-        case 3:
-            /* code */
-            break;
-        case 4:
-            /* code */
-            break;
-        case 5:
-            /* code */
-            break;
-        case 6:
-            /* code */
-            break;
-        case 7:
-            /* code */
-            break;
-
-        default:
-            break;
-        }
+        printf("\nPresione Enter para continuar...");
+        getchar();
     }
-
-    return 0;
 }
