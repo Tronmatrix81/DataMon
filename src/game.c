@@ -1,3 +1,5 @@
+#include "../include/models.h"
+
 void healingCenter(Player *player)
 {
     const char *opciones[] = {
