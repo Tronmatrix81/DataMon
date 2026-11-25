@@ -1,3646 +1,1037 @@
-Bulbasaur
-Bulbasaur11
-Planta
-Veneno
-Ivysaur
-Ivysaur21
-Planta
-Veneno
-Venusaur
-Venusaur31
-Planta
-Veneno
-Charmander
-Charmander41
-Fuego
-Charmeleon
-Charmeleon51
-Fuego
-Charizard
-Charizard61
-Fuego
-Volador
-Squirtle
-Squirtle71
-Agua
-Wartortle
-Wartortle81
-Agua
-Blastoise
-Blastoise91
-Agua
-Caterpie
-Caterpie101
-Bicho
-Metapod
-Metapod111
-Bicho
-Butterfree
-Butterfree121
-Bicho
-Volador
-Weedle
-Weedle131
-Bicho
-Veneno
-Kakuna
-Kakuna141
-Bicho
-Veneno
-Beedrill
-Beedrill151
-Bicho
-Veneno
-Pidgey
-Pidgey161
-Normal
-Volador
-Pidgeotto
-Pidgeotto171
-Normal
-Volador
-Pidgeot
-Pidgeot181
-Normal
-Volador
-Rattata
-Rattata191
-Normal
-Raticate
-Raticate201
-Normal
-Spearow
-Spearow211
-Normal
-Volador
-Fearow
-Fearow221
-Normal
-Volador
-Ekans
-Ekans231
-Veneno
-Arbok
-Arbok241
-Veneno
-Pichu
-Pichu1722
-Eléctrico
-Pikachu
-Pikachu251
-Eléctrico
-Raichu
-Raichu261
-Eléctrico
-Sandshrew
-Sandshrew271
-Tierra
-Sandslash
-Sandslash281
-Tierra
-Nidoran♀
-Nidoran♀291
-Veneno
-Nidorina
-Nidorina301
-Veneno
-Nidoqueen
-Nidoqueen311
-Veneno
-Tierra
-Nidoran♂
-Nidoran♂321
-Veneno
-Nidorino
-Nidorino331
-Veneno
-Nidoking
-Nidoking341
-Veneno
-Tierra
-Cleffa
-Cleffa1732
-Hada
-Clefairy
-Clefairy351
-Hada
-Clefable
-Clefable361
-Hada
-Vulpix
-Vulpix371
-Fuego
-Ninetales
-Ninetales381
-Fuego
-Igglybuff
-Igglybuff1742
-Normal
-Hada
-Jigglypuff
-Jigglypuff391
-Normal
-Hada
-Wigglytuff
-Wigglytuff401
-Normal
-Hada
-Zubat
-Zubat411
-Veneno
-Volador
-Golbat
-Golbat421
-Veneno
-Volador
-Crobat
-Crobat1692
-Veneno
-Volador
-Oddish
-Oddish431
-Planta
-Veneno
-Gloom
-Gloom441
-Planta
-Veneno
-Vileplume
-Vileplume451
-Planta
-Veneno
-Bellossom
-Bellossom1822
-Planta
-Paras
-Paras461
-Bicho
-Planta
-Parasect
-Parasect471
-Bicho
-Planta
-Venonat
-Venonat481
-Bicho
-Veneno
-Venomoth
-Venomoth491
-Bicho
-Veneno
-Diglett
-Diglett501
-Tierra
-Dugtrio
-Dugtrio511
-Tierra
-Meowth
-Meowth521
-Normal
-Persian
-Persian531
-Normal
-Psyduck
-Psyduck541
-Agua
-Golduck
-Golduck551
-Agua
-Mankey
-Mankey561
-Lucha
-Primeape
-Primeape571
-Lucha
-Annihilape
-Annihilape9799
-Lucha
-Fantasma
-Growlithe
-Growlithe581
-Fuego
-Arcanine
-Arcanine591
-Fuego
-Poliwag
-Poliwag601
-Agua
-Poliwhirl
-Poliwhirl611
-Agua
-Poliwrath
-Poliwrath621
-Agua
-Lucha
-Politoed
-Politoed1862
-Agua
-Abra
-Abra631
-Psíquico
-Kadabra
-Kadabra641
-Psíquico
-Alakazam
-Alakazam651
-Psíquico
-Machop
-Machop661
-Lucha
-Machoke
-Machoke671
-Lucha
-Machamp
-Machamp681
-Lucha
-Bellsprout
-Bellsprout691
-Planta
-Veneno
-Weepinbell
-Weepinbell701
-Planta
-Veneno
-Victreebel
-Victreebel711
-Planta
-Veneno
-Tentacool
-Tentacool721
-Agua
-Veneno
-Tentacruel
-Tentacruel731
-Agua
-Veneno
-Geodude
-Geodude741
-Roca
-Tierra
-Graveler
-Graveler751
-Roca
-Tierra
-Golem
-Golem761
-Roca
-Tierra
-Ponyta
-Ponyta771
-Fuego
-Rapidash
-Rapidash781
-Fuego
-Slowpoke
-Slowpoke791
-Agua
-Psíquico
-Slowbro
-Slowbro801
-Agua
-Psíquico
-Slowking
-Slowking1992
-Agua
-Psíquico
-Magnemite
-Magnemite811
-Eléctrico
-Acero
-Magneton
-Magneton821
-Eléctrico
-Acero
-Magnezone
-Magnezone4624
-Eléctrico
-Acero
-Farfetch'd
-Farfetch'd831
-Normal
-Volador
-Doduo
-Doduo841
-Normal
-Volador
-Dodrio
-Dodrio851
-Normal
-Volador
-Seel
-Seel861
-Agua
-Dewgong
-Dewgong871
-Agua
-Hielo
-Grimer
-Grimer881
-Veneno
-Muk
-Muk891
-Veneno
-Shellder
-Shellder901
-Agua
-Cloyster
-Cloyster911
-Agua
-Hielo
-Gastly
-Gastly921
-Fantasma
-Veneno
-Haunter
-Haunter931
-Fantasma
-Veneno
-Gengar
-Gengar941
-Fantasma
-Veneno
-Onix
-Onix951
-Roca
-Tierra
-Steelix
-Steelix2082
-Acero
-Tierra
-Drowzee
-Drowzee961
-Psíquico
-Hypno
-Hypno971
-Psíquico
-Krabby
-Krabby981
-Agua
-Kingler
-Kingler991
-Agua
-Voltorb
-Voltorb1001
-Eléctrico
-Electrode
-Electrode1011
-Eléctrico
-Exeggcute
-Exeggcute1021
-Planta
-Psíquico
-Exeggutor
-Exeggutor1031
-Planta
-Psíquico
-Cubone
-Cubone1041
-Tierra
-Marowak
-Marowak1051
-Tierra
-Tyrogue
-Tyrogue2362
-Lucha
-Hitmonlee
-Hitmonlee1061
-Lucha
-Hitmonchan
-Hitmonchan1071
-Lucha
-Hitmontop
-Hitmontop2372
-Lucha
-Lickitung
-Lickitung1081
-Normal
-Lickilicky
-Lickilicky4634
-Normal
-Koffing
-Koffing1091
-Veneno
-Weezing
-Weezing1101
-Veneno
-Rhyhorn
-Rhyhorn1111
-Tierra
-Roca
-Rhydon
-Rhydon1121
-Tierra
-Roca
-Rhyperior
-Rhyperior4644
-Tierra
-Roca
-Happiny
-Happiny4404
-Normal
-Chansey
-Chansey1131
-Normal
-Blissey
-Blissey2422
-Normal
-Tangela
-Tangela1141
-Planta
-Tangrowth
-Tangrowth4654
-Planta
-Kangaskhan
-Kangaskhan1151
-Normal
-Horsea
-Horsea1161
-Agua
-Seadra
-Seadra1171
-Agua
-Kingdra
-Kingdra2302
-Agua
-Dragón
-Goldeen
-Goldeen1181
-Agua
-Seaking
-Seaking1191
-Agua
-Staryu
-Staryu1201
-Agua
-Starmie
-Starmie1211
-Agua
-Psíquico
-Mime Jr.
-Mime Jr.4394
-Psíquico
-Hada
-Mr. Mime
-Mr. Mime1221
-Psíquico
-Hada
-Scyther
-Scyther1231
-Bicho
-Volador
-Scizor
-Scizor2122
-Bicho
-Acero
-Smoochum
-Smoochum2382
-Hielo
-Psíquico
-Jynx
-Jynx1241
-Hielo
-Psíquico
-Elekid
-Elekid2392
-Eléctrico
-Electabuzz
-Electabuzz1251
-Eléctrico
-Electivire
-Electivire4664
-Eléctrico
-Magby
-Magby2402
-Fuego
-Magmar
-Magmar1261
-Fuego
-Magmortar
-Magmortar4674
-Fuego
-Pinsir
-Pinsir1271
-Bicho
-Tauros
-Tauros1281
-Normal
-Magikarp
-Magikarp1291
-Agua
-Gyarados
-Gyarados1301
-Agua
-Volador
-Lapras
-Lapras1311
-Agua
-Hielo
-Ditto
-Ditto1321
-Normal
-Eevee
-Eevee1331
-Normal
-Vaporeon
-Vaporeon1341
-Agua
-Jolteon
-Jolteon1351
-Eléctrico
-Flareon
-Flareon1361
-Fuego
-Espeon
-Espeon1962
-Psíquico
-Umbreon
-Umbreon1972
-Siniestro
-Leafeon
-Leafeon4704
-Planta
-Glaceon
-Glaceon4714
-Hielo
-Sylveon
-Sylveon7006
-Hada
-Porygon
-Porygon1371
-Normal
-Porygon2
-Porygon22332
-Normal
-Porygon-Z
-Porygon-Z4744
-Normal
-Omanyte
-Omanyte1381
-Roca
-Agua
-Omastar
-Omastar1391
-Roca
-Agua
-Kabuto
-Kabuto1401
-Roca
-Agua
-Kabutops
-Kabutops1411
-Roca
-Agua
-Aerodactyl
-Aerodactyl1421
-Roca
-Volador
-Munchlax
-Munchlax4464
-Normal
-Snorlax
-Snorlax1431
-Normal
-Articuno
-Articuno1441
-Hielo
-Volador
-Zapdos
-Zapdos1451
-Eléctrico
-Volador
-Moltres
-Moltres1461
-Fuego
-Volador
-Dratini
-Dratini1471
-Dragón
-Dragonair
-Dragonair1481
-Dragón
-Dragonite
-Dragonite1491
-Dragón
-Volador
-Mewtwo
-Mewtwo1501
-Psíquico
-Mew
-Mew1511
-Psíquico
-Chikorita
-Chikorita1522
-Planta
-Bayleef
-Bayleef1532
-Planta
-Meganium
-Meganium1542
-Planta
-Cyndaquil
-Cyndaquil1552
-Fuego
-Quilava
-Quilava1562
-Fuego
-Typhlosion
-Typhlosion1572
-Fuego
-Totodile
-Totodile1582
-Agua
-Croconaw
-Croconaw1592
-Agua
-Feraligatr
-Feraligatr1602
-Agua
-Sentret
-Sentret1612
-Normal
-Furret
-Furret1622
-Normal
-Hoothoot
-Hoothoot1632
-Normal
-Volador
-Noctowl
-Noctowl1642
-Normal
-Volador
-Ledyba
-Ledyba1652
-Bicho
-Volador
-Ledian
-Ledian1662
-Bicho
-Volador
-Spinarak
-Spinarak1672
-Bicho
-Veneno
-Ariados
-Ariados1682
-Bicho
-Veneno
-Chinchou
-Chinchou1702
-Agua
-Eléctrico
-Lanturn
-Lanturn1712
-Agua
-Eléctrico
-Togepi
-Togepi1752
-Hada
-Togetic
-Togetic1762
-Hada
-Volador
-Togekiss
-Togekiss4684
-Hada
-Volador
-Natu
-Natu1772
-Psíquico
-Volador
-Xatu
-Xatu1782
-Psíquico
-Volador
-Mareep
-Mareep1792
-Eléctrico
-Flaaffy
-Flaaffy1802
-Eléctrico
-Ampharos
-Ampharos1812
-Eléctrico
-Azurill
-Azurill2983
-Normal
-Hada
-Marill
-Marill1832
-Agua
-Hada
-Azumarill
-Azumarill1842
-Agua
-Hada
-Bonsly
-Bonsly4384
-Roca
-Sudowoodo
-Sudowoodo1852
-Roca
-Hoppip
-Hoppip1872
-Planta
-Volador
-Skiploom
-Skiploom1882
-Planta
-Volador
-Jumpluff
-Jumpluff1892
-Planta
-Volador
-Aipom
-Aipom1902
-Normal
-Ambipom
-Ambipom4244
-Normal
-Sunkern
-Sunkern1912
-Planta
-Sunflora
-Sunflora1922
-Planta
-Yanma
-Yanma1932
-Bicho
-Volador
-Yanmega
-Yanmega4694
-Bicho
-Volador
-Wooper
-Wooper1942
-Agua
-Tierra
-Quagsire
-Quagsire1952
-Agua
-Tierra
-Murkrow
-Murkrow1982
-Siniestro
-Volador
-Honchkrow
-Honchkrow4304
-Siniestro
-Volador
-Misdreavus
-Misdreavus2002
-Fantasma
-Mismagius
-Mismagius4294
-Fantasma
-Unown
-Unown2012
-Psíquico
-Wynaut
-Wynaut3603
-Psíquico
-Wobbuffet
-Wobbuffet2022
-Psíquico
-Girafarig
-Girafarig2032
-Normal
-Psíquico
-Pineco
-Pineco2042
-Bicho
-Forretress
-Forretress2052
-Bicho
-Acero
-Dunsparce
-Dunsparce2062
-Normal
-Dudunsparce
-Dudunsparce9829
-Normal
-Gligar
-Gligar2072
-Tierra
-Volador
-Gliscor
-Gliscor4724
-Tierra
-Volador
-Snubbull
-Snubbull2092
-Hada
-Granbull
-Granbull2102
-Hada
-Qwilfish
-Qwilfish2112
-Agua
-Veneno
-Shuckle
-Shuckle2132
-Bicho
-Roca
-Heracross
-Heracross2142
-Bicho
-Lucha
-Sneasel
-Sneasel2152
-Siniestro
-Hielo
-Weavile
-Weavile4614
-Siniestro
-Hielo
-Teddiursa
-Teddiursa2162
-Normal
-Ursaring
-Ursaring2172
-Normal
-Ursaluna
-Ursaluna9018
-Tierra
-Normal
-Slugma
-Slugma2182
-Fuego
-Magcargo
-Magcargo2192
-Fuego
-Roca
-Swinub
-Swinub2202
-Hielo
-Tierra
-Piloswine
-Piloswine2212
-Hielo
-Tierra
-Mamoswine
-Mamoswine4734
-Hielo
-Tierra
-Corsola
-Corsola2222
-Agua
-Roca
-Remoraid
-Remoraid2232
-Agua
-Octillery
-Octillery2242
-Agua
-Delibird
-Delibird2252
-Hielo
-Volador
-Mantyke
-Mantyke4584
-Agua
-Volador
-Mantine
-Mantine2262
-Agua
-Volador
-Skarmory
-Skarmory2272
-Acero
-Volador
-Houndour
-Houndour2282
-Siniestro
-Fuego
-Houndoom
-Houndoom2292
-Siniestro
-Fuego
-Phanpy
-Phanpy2312
-Tierra
-Donphan
-Donphan2322
-Tierra
-Stantler
-Stantler2342
-Normal
-Smeargle
-Smeargle2352
-Normal
-Miltank
-Miltank2412
-Normal
-Raikou
-Raikou2432
-Eléctrico
-Entei
-Entei2442
-Fuego
-Suicune
-Suicune2452
-Agua
-Larvitar
-Larvitar2462
-Roca
-Tierra
-Pupitar
-Pupitar2472
-Roca
-Tierra
-Tyranitar
-Tyranitar2482
-Roca
-Siniestro
-Lugia
-Lugia2492
-Psíquico
-Volador
-Ho-Oh
-Ho-Oh2502
-Fuego
-Volador
-Celebi
-Celebi2512
-Psíquico
-Planta
-Treecko
-Treecko2523
-Planta
-Grovyle
-Grovyle2533
-Planta
-Sceptile
-Sceptile2543
-Planta
-Torchic
-Torchic2553
-Fuego
-Combusken
-Combusken2563
-Fuego
-Lucha
-Blaziken
-Blaziken2573
-Fuego
-Lucha
-Mudkip
-Mudkip2583
-Agua
-Marshtomp
-Marshtomp2593
-Agua
-Tierra
-Swampert
-Swampert2603
-Agua
-Tierra
-Poochyena
-Poochyena2613
-Siniestro
-Mightyena
-Mightyena2623
-Siniestro
-Zigzagoon
-Zigzagoon2633
-Normal
-Linoone
-Linoone2643
-Normal
-Wurmple
-Wurmple2653
-Bicho
-Silcoon
-Silcoon2663
-Bicho
-Cascoon
-Cascoon2683
-Bicho
-Beautifly
-Beautifly2673
-Bicho
-Volador
-Dustox
-Dustox2693
-Bicho
-Veneno
-Lotad
-Lotad2703
-Agua
-Planta
-Lombre
-Lombre2713
-Agua
-Planta
-Ludicolo
-Ludicolo2723
-Agua
-Planta
-Seedot
-Seedot2733
-Planta
-Nuzleaf
-Nuzleaf2743
-Planta
-Siniestro
-Shiftry
-Shiftry2753
-Planta
-Siniestro
-Taillow
-Taillow2763
-Normal
-Volador
-Swellow
-Swellow2773
-Normal
-Volador
-Wingull
-Wingull2783
-Agua
-Volador
-Pelipper
-Pelipper2793
-Agua
-Volador
-Ralts
-Ralts2803
-Psíquico
-Hada
-Kirlia
-Kirlia2813
-Psíquico
-Hada
-Gardevoir
-Gardevoir2823
-Psíquico
-Hada
-Gallade
-Gallade4754
-Psíquico
-Lucha
-Surskit
-Surskit2833
-Bicho
-Agua
-Masquerain
-Masquerain2843
-Bicho
-Volador
-Shroomish
-Shroomish2853
-Planta
-Breloom
-Breloom2863
-Planta
-Lucha
-Slakoth
-Slakoth2873
-Normal
-Vigoroth
-Vigoroth2883
-Normal
-Slaking
-Slaking2893
-Normal
-Nincada
-Nincada2903
-Bicho
-Tierra
-Ninjask
-Ninjask2913
-Bicho
-Volador
-Shedinja
-Shedinja2923
-Bicho
-Fantasma
-Whismur
-Whismur2933
-Normal
-Loudred
-Loudred2943
-Normal
-Exploud
-Exploud2953
-Normal
-Makuhita
-Makuhita2963
-Lucha
-Hariyama
-Hariyama2973
-Lucha
-Nosepass
-Nosepass2993
-Roca
-Probopass
-Probopass4764
-Roca
-Acero
-Skitty
-Skitty3003
-Normal
-Delcatty
-Delcatty3013
-Normal
-Sableye
-Sableye3023
-Siniestro
-Fantasma
-Mawile
-Mawile3033
-Acero
-Hada
-Aron
-Aron3043
-Acero
-Roca
-Lairon
-Lairon3053
-Acero
-Roca
-Aggron
-Aggron3063
-Acero
-Roca
-Meditite
-Meditite3073
-Lucha
-Psíquico
-Medicham
-Medicham3083
-Lucha
-Psíquico
-Electrike
-Electrike3093
-Eléctrico
-Manectric
-Manectric3103
-Eléctrico
-Plusle
-Plusle3113
-Eléctrico
-Minun
-Minun3123
-Eléctrico
-Volbeat
-Volbeat3133
-Bicho
-Illumise
-Illumise3143
-Bicho
-Budew
-Budew4064
-Planta
-Veneno
-Roselia
-Roselia3153
-Planta
-Veneno
-Roserade
-Roserade4074
-Planta
-Veneno
-Gulpin
-Gulpin3163
-Veneno
-Swalot
-Swalot3173
-Veneno
-Carvanha
-Carvanha3183
-Agua
-Siniestro
-Sharpedo
-Sharpedo3193
-Agua
-Siniestro
-Wailmer
-Wailmer3203
-Agua
-Wailord
-Wailord3213
-Agua
-Numel
-Numel3223
-Fuego
-Tierra
-Camerupt
-Camerupt3233
-Fuego
-Tierra
-Torkoal
-Torkoal3243
-Fuego
-Spoink
-Spoink3253
-Psíquico
-Grumpig
-Grumpig3263
-Psíquico
-Spinda
-Spinda3273
-Normal
-Trapinch
-Trapinch3283
-Tierra
-Vibrava
-Vibrava3293
-Tierra
-Dragón
-Flygon
-Flygon3303
-Tierra
-Dragón
-Cacnea
-Cacnea3313
-Planta
-Cacturne
-Cacturne3323
-Planta
-Siniestro
-Swablu
-Swablu3333
-Normal
-Volador
-Altaria
-Altaria3343
-Dragón
-Volador
-Zangoose
-Zangoose3353
-Normal
-Seviper
-Seviper3363
-Veneno
-Lunatone
-Lunatone3373
-Roca
-Psíquico
-Solrock
-Solrock3383
-Roca
-Psíquico
-Barboach
-Barboach3393
-Agua
-Tierra
-Whiscash
-Whiscash3403
-Agua
-Tierra
-Corphish
-Corphish3413
-Agua
-Crawdaunt
-Crawdaunt3423
-Agua
-Siniestro
-Baltoy
-Baltoy3433
-Tierra
-Psíquico
-Claydol
-Claydol3443
-Tierra
-Psíquico
-Lileep
-Lileep3453
-Roca
-Planta
-Cradily
-Cradily3463
-Roca
-Planta
-Anorith
-Anorith3473
-Roca
-Bicho
-Armaldo
-Armaldo3483
-Roca
-Bicho
-Feebas
-Feebas3493
-Agua
-Milotic
-Milotic3503
-Agua
-Castform
-Castform3513
-Normal
-Kecleon
-Kecleon3523
-Normal
-Shuppet
-Shuppet3533
-Fantasma
-Banette
-Banette3543
-Fantasma
-Duskull
-Duskull3553
-Fantasma
-Dusclops
-Dusclops3563
-Fantasma
-Dusknoir
-Dusknoir4774
-Fantasma
-Tropius
-Tropius3573
-Planta
-Volador
-Chingling
-Chingling4334
-Psíquico
-Chimecho
-Chimecho3583
-Psíquico
-Absol
-Absol3593
-Siniestro
-Snorunt
-Snorunt3613
-Hielo
-Glalie
-Glalie3623
-Hielo
-Froslass
-Froslass4784
-Hielo
-Fantasma
-Spheal
-Spheal3633
-Hielo
-Agua
-Sealeo
-Sealeo3643
-Hielo
-Agua
-Walrein
-Walrein3653
-Hielo
-Agua
-Clamperl
-Clamperl3663
-Agua
-Huntail
-Huntail3673
-Agua
-Gorebyss
-Gorebyss3683
-Agua
-Relicanth
-Relicanth3693
-Agua
-Roca
-Luvdisc
-Luvdisc3703
-Agua
-Bagon
-Bagon3713
-Dragón
-Shelgon
-Shelgon3723
-Dragón
-Salamence
-Salamence3733
-Dragón
-Volador
-Beldum
-Beldum3743
-Acero
-Psíquico
-Metang
-Metang3753
-Acero
-Psíquico
-Metagross
-Metagross3763
-Acero
-Psíquico
-Regirock
-Regirock3773
-Roca
-Regice
-Regice3783
-Hielo
-Registeel
-Registeel3793
-Acero
-Latias
-Latias3803
-Dragón
-Psíquico
-Latios
-Latios3813
-Dragón
-Psíquico
-Kyogre
-Kyogre3823
-Agua
-Groudon
-Groudon3833
-Tierra
-Rayquaza
-Rayquaza3843
-Dragón
-Volador
-Jirachi
-Jirachi3853
-Acero
-Psíquico
-Deoxys
-Deoxys3863
-Psíquico
-Turtwig
-Turtwig3874
-Planta
-Grotle
-Grotle3884
-Planta
-Torterra
-Torterra3894
-Planta
-Tierra
-Chimchar
-Chimchar3904
-Fuego
-Monferno
-Monferno3914
-Fuego
-Lucha
-Infernape
-Infernape3924
-Fuego
-Lucha
-Piplup
-Piplup3934
-Agua
-Prinplup
-Prinplup3944
-Agua
-Empoleon
-Empoleon3954
-Agua
-Acero
-Starly
-Starly3964
-Normal
-Volador
-Staravia
-Staravia3974
-Normal
-Volador
-Staraptor
-Staraptor3984
-Normal
-Volador
-Bidoof
-Bidoof3994
-Normal
-Bibarel
-Bibarel4004
-Normal
-Agua
-Kricketot
-Kricketot4014
-Bicho
-Kricketune
-Kricketune4024
-Bicho
-Shinx
-Shinx4034
-Eléctrico
-Luxio
-Luxio4044
-Eléctrico
-Luxray
-Luxray4054
-Eléctrico
-Cranidos
-Cranidos4084
-Roca
-Rampardos
-Rampardos4094
-Roca
-Shieldon
-Shieldon4104
-Roca
-Acero
-Bastiodon
-Bastiodon4114
-Roca
-Acero
-Burmy
-Burmy4124
-Bicho
-Wormadam
-Wormadam4134
-Bicho
-Planta
-Mothim
-Mothim4144
-Bicho
-Volador
-Combee
-Combee4154
-Bicho
-Volador
-Vespiquen
-Vespiquen4164
-Bicho
-Volador
-Pachirisu
-Pachirisu4174
-Eléctrico
-Buizel
-Buizel4184
-Agua
-Floatzel
-Floatzel4194
-Agua
-Cherubi
-Cherubi4204
-Planta
-Cherrim
-Cherrim4214
-Planta
-Shellos
-Shellos4224
-Agua
-Gastrodon
-Gastrodon4234
-Agua
-Tierra
-Drifloon
-Drifloon4254
-Fantasma
-Volador
-Drifblim
-Drifblim4264
-Fantasma
-Volador
-Buneary
-Buneary4274
-Normal
-Lopunny
-Lopunny4284
-Normal
-Glameow
-Glameow4314
-Normal
-Purugly
-Purugly4324
-Normal
-Stunky
-Stunky4344
-Veneno
-Siniestro
-Skuntank
-Skuntank4354
-Veneno
-Siniestro
-Bronzor
-Bronzor4364
-Acero
-Psíquico
-Bronzong
-Bronzong4374
-Acero
-Psíquico
-Chatot
-Chatot4414
-Normal
-Volador
-Spiritomb
-Spiritomb4424
-Fantasma
-Siniestro
-Gible
-Gible4434
-Dragón
-Tierra
-Gabite
-Gabite4444
-Dragón
-Tierra
-Garchomp
-Garchomp4454
-Dragón
-Tierra
-Riolu
-Riolu4474
-Lucha
-Lucario
-Lucario4484
-Lucha
-Acero
-Hippopotas
-Hippopotas4494
-Tierra
-Hippowdon
-Hippowdon4504
-Tierra
-Skorupi
-Skorupi4514
-Veneno
-Bicho
-Drapion
-Drapion4524
-Veneno
-Siniestro
-Croagunk
-Croagunk4534
-Veneno
-Lucha
-Toxicroak
-Toxicroak4544
-Veneno
-Lucha
-Carnivine
-Carnivine4554
-Planta
-Finneon
-Finneon4564
-Agua
-Lumineon
-Lumineon4574
-Agua
-Snover
-Snover4594
-Planta
-Hielo
-Abomasnow
-Abomasnow4604
-Planta
-Hielo
-Rotom
-Rotom4794
-Eléctrico
-Fantasma
-Uxie
-Uxie4804
-Psíquico
-Mesprit
-Mesprit4814
-Psíquico
-Azelf
-Azelf4824
-Psíquico
-Dialga
-Dialga4834
-Acero
-Dragón
-Palkia
-Palkia4844
-Agua
-Dragón
-Heatran
-Heatran4854
-Fuego
-Acero
-Regigigas
-Regigigas4864
-Normal
-Giratina
-Giratina4874
-Fantasma
-Dragón
-Cresselia
-Cresselia4884
-Psíquico
-Phione
-Phione4894
-Agua
-Manaphy
-Manaphy4904
-Agua
-Darkrai
-Darkrai4914
-Siniestro
-Shaymin
-Shaymin4924
-Planta
-Arceus
-Arceus4934
-Normal
-Victini
-Victini4945
-Psíquico
-Fuego
-Snivy
-Snivy4955
-Planta
-Servine
-Servine4965
-Planta
-Serperior
-Serperior4975
-Planta
-Tepig
-Tepig4985
-Fuego
-Pignite
-Pignite4995
-Fuego
-Lucha
-Emboar
-Emboar5005
-Fuego
-Lucha
-Oshawott
-Oshawott5015
-Agua
-Dewott
-Dewott5025
-Agua
-Samurott
-Samurott5035
-Agua
-Patrat
-Patrat5045
-Normal
-Watchog
-Watchog5055
-Normal
-Lillipup
-Lillipup5065
-Normal
-Herdier
-Herdier5075
-Normal
-Stoutland
-Stoutland5085
-Normal
-Purrloin
-Purrloin5095
-Siniestro
-Liepard
-Liepard5105
-Siniestro
-Pansage
-Pansage5115
-Planta
-Simisage
-Simisage5125
-Planta
-Pansear
-Pansear5135
-Fuego
-Simisear
-Simisear5145
-Fuego
-Panpour
-Panpour5155
-Agua
-Simipour
-Simipour5165
-Agua
-Munna
-Munna5175
-Psíquico
-Musharna
-Musharna5185
-Psíquico
-Pidove
-Pidove5195
-Normal
-Volador
-Tranquill
-Tranquill5205
-Normal
-Volador
-Unfezant
-Unfezant5215
-Normal
-Volador
-Blitzle
-Blitzle5225
-Eléctrico
-Zebstrika
-Zebstrika5235
-Eléctrico
-Roggenrola
-Roggenrola5245
-Roca
-Boldore
-Boldore5255
-Roca
-Gigalith
-Gigalith5265
-Roca
-Woobat
-Woobat5275
-Psíquico
-Volador
-Swoobat
-Swoobat5285
-Psíquico
-Volador
-Drilbur
-Drilbur5295
-Tierra
-Excadrill
-Excadrill5305
-Tierra
-Acero
-Audino
-Audino5315
-Normal
-Timburr
-Timburr5325
-Lucha
-Gurdurr
-Gurdurr5335
-Lucha
-Conkeldurr
-Conkeldurr5345
-Lucha
-Tympole
-Tympole5355
-Agua
-Palpitoad
-Palpitoad5365
-Agua
-Tierra
-Seismitoad
-Seismitoad5375
-Agua
-Tierra
-Throh
-Throh5385
-Lucha
-Sawk
-Sawk5395
-Lucha
-Sewaddle
-Sewaddle5405
-Bicho
-Planta
-Swadloon
-Swadloon5415
-Bicho
-Planta
-Leavanny
-Leavanny5425
-Bicho
-Planta
-Venipede
-Venipede5435
-Bicho
-Veneno
-Whirlipede
-Whirlipede5445
-Bicho
-Veneno
-Scolipede
-Scolipede5455
-Bicho
-Veneno
-Cottonee
-Cottonee5465
-Planta
-Hada
-Whimsicott
-Whimsicott5475
-Planta
-Hada
-Petilil
-Petilil5485
-Planta
-Lilligant
-Lilligant5495
-Planta
-Basculin
-Basculin5505
-Agua
-Sandile
-Sandile5515
-Tierra
-Siniestro
-Krokorok
-Krokorok5525
-Tierra
-Siniestro
-Krookodile
-Krookodile5535
-Tierra
-Siniestro
-Darumaka
-Darumaka5545
-Fuego
-Darmanitan
-Darmanitan5555
-Fuego
-Maractus
-Maractus5565
-Planta
-Dwebble
-Dwebble5575
-Bicho
-Roca
-Crustle
-Crustle5585
-Bicho
-Roca
-Scraggy
-Scraggy5595
-Siniestro
-Lucha
-Scrafty
-Scrafty5605
-Siniestro
-Lucha
-Sigilyph
-Sigilyph5615
-Psíquico
-Volador
-Yamask
-Yamask5625
-Fantasma
-Cofagrigus
-Cofagrigus5635
-Fantasma
-Tirtouga
-Tirtouga5645
-Agua
-Roca
-Carracosta
-Carracosta5655
-Agua
-Roca
-Archen
-Archen5665
-Roca
-Volador
-Archeops
-Archeops5675
-Roca
-Volador
-Trubbish
-Trubbish5685
-Veneno
-Garbodor
-Garbodor5695
-Veneno
-Zorua
-Zorua5705
-Siniestro
-Zoroark
-Zoroark5715
-Siniestro
-Minccino
-Minccino5725
-Normal
-Cinccino
-Cinccino5735
-Normal
-Gothita
-Gothita5745
-Psíquico
-Gothorita
-Gothorita5755
-Psíquico
-Gothitelle
-Gothitelle5765
-Psíquico
-Solosis
-Solosis5775
-Psíquico
-Duosion
-Duosion5785
-Psíquico
-Reuniclus
-Reuniclus5795
-Psíquico
-Ducklett
-Ducklett5805
-Agua
-Volador
-Swanna
-Swanna5815
-Agua
-Volador
-Vanillite
-Vanillite5825
-Hielo
-Vanillish
-Vanillish5835
-Hielo
-Vanilluxe
-Vanilluxe5845
-Hielo
-Deerling
-Deerling5855
-Normal
-Planta
-Sawsbuck
-Sawsbuck5865
-Normal
-Planta
-Emolga
-Emolga5875
-Eléctrico
-Volador
-Karrablast
-Karrablast5885
-Bicho
-Escavalier
-Escavalier5895
-Bicho
-Acero
-Foongus
-Foongus5905
-Planta
-Veneno
-Amoonguss
-Amoonguss5915
-Planta
-Veneno
-Frillish
-Frillish5925
-Agua
-Fantasma
-Jellicent
-Jellicent5935
-Agua
-Fantasma
-Alomomola
-Alomomola5945
-Agua
-Joltik
-Joltik5955
-Bicho
-Eléctrico
-Galvantula
-Galvantula5965
-Bicho
-Eléctrico
-Ferroseed
-Ferroseed5975
-Planta
-Acero
-Ferrothorn
-Ferrothorn5985
-Planta
-Acero
-Klink
-Klink5995
-Acero
-Klang
-Klang6005
-Acero
-Klinklang
-Klinklang6015
-Acero
-Tynamo
-Tynamo6025
-Eléctrico
-Eelektrik
-Eelektrik6035
-Eléctrico
-Eelektross
-Eelektross6045
-Eléctrico
-Elgyem
-Elgyem6055
-Psíquico
-Beheeyem
-Beheeyem6065
-Psíquico
-Litwick
-Litwick6075
-Fantasma
-Fuego
-Lampent
-Lampent6085
-Fantasma
-Fuego
-Chandelure
-Chandelure6095
-Fantasma
-Fuego
-Axew
-Axew6105
-Dragón
-Fraxure
-Fraxure6115
-Dragón
-Haxorus
-Haxorus6125
-Dragón
-Cubchoo
-Cubchoo6135
-Hielo
-Beartic
-Beartic6145
-Hielo
-Cryogonal
-Cryogonal6155
-Hielo
-Shelmet
-Shelmet6165
-Bicho
-Accelgor
-Accelgor6175
-Bicho
-Stunfisk
-Stunfisk6185
-Tierra
-Eléctrico
-Mienfoo
-Mienfoo6195
-Lucha
-Mienshao
-Mienshao6205
-Lucha
-Druddigon
-Druddigon6215
-Dragón
-Golett
-Golett6225
-Tierra
-Fantasma
-Golurk
-Golurk6235
-Tierra
-Fantasma
-Pawniard
-Pawniard6245
-Siniestro
-Acero
-Bisharp
-Bisharp6255
-Siniestro
-Acero
-Kingambit
-Kingambit9839
-Siniestro
-Acero
-Bouffalant
-Bouffalant6265
-Normal
-Rufflet
-Rufflet6275
-Normal
-Volador
-Braviary
-Braviary6285
-Normal
-Volador
-Vullaby
-Vullaby6295
-Siniestro
-Volador
-Mandibuzz
-Mandibuzz6305
-Siniestro
-Volador
-Heatmor
-Heatmor6315
-Fuego
-Durant
-Durant6325
-Bicho
-Acero
-Deino
-Deino6335
-Siniestro
-Dragón
-Zweilous
-Zweilous6345
-Siniestro
-Dragón
-Hydreigon
-Hydreigon6355
-Siniestro
-Dragón
-Larvesta
-Larvesta6365
-Bicho
-Fuego
-Volcarona
-Volcarona6375
-Bicho
-Fuego
-Cobalion
-Cobalion6385
-Acero
-Lucha
-Terrakion
-Terrakion6395
-Roca
-Lucha
-Virizion
-Virizion6405
-Planta
-Lucha
-Tornadus
-Tornadus6415
-Volador
-Thundurus
-Thundurus6425
-Eléctrico
-Volador
-Reshiram
-Reshiram6435
-Dragón
-Fuego
-Zekrom
-Zekrom6445
-Dragón
-Eléctrico
-Landorus
-Landorus6455
-Tierra
-Volador
-Kyurem
-Kyurem6465
-Dragón
-Hielo
-Keldeo
-Keldeo6475
-Agua
-Lucha
-Meloetta
-Meloetta6485
-Normal
-Psíquico
-Genesect
-Genesect6495
-Bicho
-Acero
-Chespin
-Chespin6506
-Planta
-Quilladin
-Quilladin6516
-Planta
-Chesnaught
-Chesnaught6526
-Planta
-Lucha
-Fennekin
-Fennekin6536
-Fuego
-Braixen
-Braixen6546
-Fuego
-Delphox
-Delphox6556
-Fuego
-Psíquico
-Froakie
-Froakie6566
-Agua
-Frogadier
-Frogadier6576
-Agua
-Greninja
-Greninja6586
-Agua
-Siniestro
-Bunnelby
-Bunnelby6596
-Normal
-Diggersby
-Diggersby6606
-Normal
-Tierra
-Fletchling
-Fletchling6616
-Normal
-Volador
-Fletchinder
-Fletchinder6626
-Fuego
-Volador
-Talonflame
-Talonflame6636
-Fuego
-Volador
-Scatterbug
-Scatterbug6646
-Bicho
-Spewpa
-Spewpa6656
-Bicho
-Vivillon
-Vivillon6666
-Bicho
-Volador
-Litleo
-Litleo6676
-Fuego
-Normal
-Pyroar
-Pyroar6686
-Fuego
-Normal
-Flabébé
-Flabébé6696
-Hada
-Floette
-Floette6706
-Hada
-Florges
-Florges6716
-Hada
-Skiddo
-Skiddo6726
-Planta
-Gogoat
-Gogoat6736
-Planta
-Pancham
-Pancham6746
-Lucha
-Pangoro
-Pangoro6756
-Lucha
-Siniestro
-Furfrou
-Furfrou6766
-Normal
-Espurr
-Espurr6776
-Psíquico
-Meowstic
-Meowstic6786
-Psíquico
-Honedge
-Honedge6796
-Acero
-Fantasma
-Doublade
-Doublade6806
-Acero
-Fantasma
-Aegislash
-Aegislash6816
-Acero
-Fantasma
-Spritzee
-Spritzee6826
-Hada
-Aromatisse
-Aromatisse6836
-Hada
-Swirlix
-Swirlix6846
-Hada
-Slurpuff
-Slurpuff6856
-Hada
-Inkay
-Inkay6866
-Siniestro
-Psíquico
-Malamar
-Malamar6876
-Siniestro
-Psíquico
-Binacle
-Binacle6886
-Roca
-Agua
-Barbaracle
-Barbaracle6896
-Roca
-Agua
-Skrelp
-Skrelp6906
-Veneno
-Agua
-Dragalge
-Dragalge6916
-Veneno
-Dragón
-Clauncher
-Clauncher6926
-Agua
-Clawitzer
-Clawitzer6936
-Agua
-Helioptile
-Helioptile6946
-Eléctrico
-Normal
-Heliolisk
-Heliolisk6956
-Eléctrico
-Normal
-Tyrunt
-Tyrunt6966
-Roca
-Dragón
-Tyrantrum
-Tyrantrum6976
-Roca
-Dragón
-Amaura
-Amaura6986
-Roca
-Hielo
-Aurorus
-Aurorus6996
-Roca
-Hielo
-Hawlucha
-Hawlucha7016
-Lucha
-Volador
-Dedenne
-Dedenne7026
-Eléctrico
-Hada
-Carbink
-Carbink7036
-Roca
-Hada
-Goomy
-Goomy7046
-Dragón
-Sliggoo
-Sliggoo7056
-Dragón
-Goodra
-Goodra7066
-Dragón
-Klefki
-Klefki7076
-Acero
-Hada
-Phantump
-Phantump7086
-Fantasma
-Planta
-Trevenant
-Trevenant7096
-Fantasma
-Planta
-Pumpkaboo
-Pumpkaboo7106
-Fantasma
-Planta
-Gourgeist
-Gourgeist7116
-Fantasma
-Planta
-Bergmite
-Bergmite7126
-Hielo
-Avalugg
-Avalugg7136
-Hielo
-Noibat
-Noibat7146
-Volador
-Dragón
-Noivern
-Noivern7156
-Volador
-Dragón
-Xerneas
-Xerneas7166
-Hada
-Yveltal
-Yveltal7176
-Siniestro
-Volador
-Zygarde (Forma 10%)
-Zygarde (Forma 10%)7186
-Dragón
-Tierra
-Zygarde (Forma 50%)
-Zygarde (Forma 50%)7186
-Dragón
-Tierra
-Zygarde (Forma Completa)
-Zygarde (Forma Completa)7186
-Dragón
-Tierra
-Diancie
-Diancie7196
-Roca
-Hada
-Hoopa
-Hoopa7206
-Psíquico
-Fantasma
-Volcanion
-Volcanion7216
-Fuego
-Agua
-Rowlet
-Rowlet7227
-Planta
-Volador
-Dartrix
-Dartrix7237
-Planta
-Volador
-Decidueye
-Decidueye7247
-Planta
-Fantasma
-Litten
-Litten7257
-Fuego
-Torracat
-Torracat7267
-Fuego
-Incineroar
-Incineroar7277
-Fuego
-Siniestro
-Popplio
-Popplio7287
-Agua
-Brionne
-Brionne7297
-Agua
-Primarina
-Primarina7307
-Agua
-Hada
-Pikipek
-Pikipek7317
-Normal
-Volador
-Trumbeak
-Trumbeak7327
-Normal
-Volador
-Toucannon
-Toucannon7337
-Normal
-Volador
-Yungoos
-Yungoos7347
-Normal
-Gumshoos
-Gumshoos7357
-Normal
-Grubbin
-Grubbin7367
-Bicho
-Charjabug
-Charjabug7377
-Bicho
-Eléctrico
-Vikavolt
-Vikavolt7387
-Bicho
-Eléctrico
-Crabrawler
-Crabrawler7397
-Lucha
-Crabominable
-Crabominable7407
-Lucha
-Hielo
-Oricorio
-Oricorio7417
-Fuego
-Volador
-Cutiefly
-Cutiefly7427
-Bicho
-Hada
-Ribombee
-Ribombee7437
-Bicho
-Hada
-Rockruff
-Rockruff7447
-Roca
-Lycanroc
-Lycanroc7457
-Roca
-Wishiwashi
-Wishiwashi7467
-Agua
-Mareanie
-Mareanie7477
-Veneno
-Agua
-Toxapex
-Toxapex7487
-Veneno
-Agua
-Mudbray
-Mudbray7497
-Tierra
-Mudsdale
-Mudsdale7507
-Tierra
-Dewpider
-Dewpider7517
-Agua
-Bicho
-Araquanid
-Araquanid7527
-Agua
-Bicho
-Fomantis
-Fomantis7537
-Planta
-Lurantis
-Lurantis7547
-Planta
-Morelull
-Morelull7557
-Planta
-Hada
-Shiinotic
-Shiinotic7567
-Planta
-Hada
-Salandit
-Salandit7577
-Veneno
-Fuego
-Salazzle
-Salazzle7587
-Veneno
-Fuego
-Stufful
-Stufful7597
-Normal
-Lucha
-Bewear
-Bewear7607
-Normal
-Lucha
-Bounsweet
-Bounsweet7617
-Planta
-Steenee
-Steenee7627
-Planta
-Tsareena
-Tsareena7637
-Planta
-Comfey
-Comfey7647
-Hada
-Oranguru
-Oranguru7657
-Normal
-Psíquico
-Passimian
-Passimian7667
-Lucha
-Wimpod
-Wimpod7677
-Bicho
-Agua
-Golisopod
-Golisopod7687
-Bicho
-Agua
-Sandygast
-Sandygast7697
-Fantasma
-Tierra
-Palossand
-Palossand7707
-Fantasma
-Tierra
-Pyukumuku
-Pyukumuku7717
-Agua
-Type: Null
-Type: Null7727
-Normal
-Silvally
-Silvally7737
-Normal
-Minior
-Minior7747
-Roca
-Volador
-Komala
-Komala7757
-Normal
-Turtonator
-Turtonator7767
-Fuego
-Dragón
-Togedemaru
-Togedemaru7777
-Eléctrico
-Acero
-Mimikyu
-Mimikyu7787
-Fantasma
-Hada
-Bruxish
-Bruxish7797
-Agua
-Psíquico
-Drampa
-Drampa7807
-Normal
-Dragón
-Dhelmise
-Dhelmise7817
-Fantasma
-Planta
-Jangmo-o
-Jangmo-o7827
-Dragón
-Hakamo-o
-Hakamo-o7837
-Dragón
-Lucha
-Kommo-o
-Kommo-o7847
-Dragón
-Lucha
-Tapu Koko
-Tapu Koko7857
-Eléctrico
-Hada
-Tapu Lele
-Tapu Lele7867
-Psíquico
-Hada
-Tapu Bulu
-Tapu Bulu7877
-Planta
-Hada
-Tapu Fini
-Tapu Fini7887
-Agua
-Hada
-Cosmog
-Cosmog7897
-Psíquico
-Cosmoem
-Cosmoem7907
-Psíquico
-Solgaleo
-Solgaleo7917
-Psíquico
-Acero
-Lunala
-Lunala7927
-Psíquico
-Fantasma
-Nihilego
-Nihilego7937
-Roca
-Veneno
-Buzzwole
-Buzzwole7947
-Bicho
-Lucha
-Pheromosa
-Pheromosa7957
-Bicho
-Lucha
-Xurkitree
-Xurkitree7967
-Eléctrico
-Celesteela
-Celesteela7977
-Acero
-Volador
-Kartana
-Kartana7987
-Planta
-Acero
-Guzzlord
-Guzzlord7997
-Siniestro
-Dragón
-Necrozma
-Necrozma8007
-Psíquico
-Magearna
-Magearna8017
-Acero
-Hada
-Marshadow
-Marshadow8027
-Lucha
-Fantasma
-Poipole
-Poipole8037
-Veneno
-Naganadel
-Naganadel8047
-Veneno
-Dragón
-Stakataka
-Stakataka8057
-Roca
-Acero
-Blacephalon
-Blacephalon8067
-Fuego
-Fantasma
-Zeraora
-Zeraora8077
-Eléctrico
-Meltan
-Meltan8087
-Acero
-Melmetal
-Melmetal8097
-Acero
-Grookey
-Grookey8108
-Planta
-Thwackey
-Thwackey8118
-Planta
-Rillaboom
-Rillaboom8128
-Planta
-Scorbunny
-Scorbunny8138
-Fuego
-Raboot
-Raboot8148
-Fuego
-Cinderace
-Cinderace8158
-Fuego
-Sobble
-Sobble8168
-Agua
-Drizzile
-Drizzile8178
-Agua
-Inteleon
-Inteleon8188
-Agua
-Skwovet
-Skwovet8198
-Normal
-Greedent
-Greedent8208
-Normal
-Rookidee
-Rookidee8218
-Volador
-Corvisquire
-Corvisquire8228
-Volador
-Corviknight
-Corviknight8238
-Volador
-Acero
-Blipbug
-Blipbug8248
-Bicho
-Dottler
-Dottler8258
-Bicho
-Psíquico
-Orbeetle
-Orbeetle8268
-Bicho
-Psíquico
-Nickit
-Nickit8278
-Siniestro
-Thievul
-Thievul8288
-Siniestro
-Gossifleur
-Gossifleur8298
-Planta
-Eldegoss
-Eldegoss8308
-Planta
-Wooloo
-Wooloo8318
-Normal
-Dubwool
-Dubwool8328
-Normal
-Chewtle
-Chewtle8338
-Agua
-Drednaw
-Drednaw8348
-Agua
-Roca
-Yamper
-Yamper8358
-Eléctrico
-Boltund
-Boltund8368
-Eléctrico
-Rolycoly
-Rolycoly8378
-Roca
-Carkol
-Carkol8388
-Roca
-Fuego
-Coalossal
-Coalossal8398
-Roca
-Fuego
-Applin
-Applin8408
-Planta
-Dragón
-Flapple
-Flapple8418
-Planta
-Dragón
-Appletun
-Appletun8428
-Planta
-Dragón
-Dipplin
-Dipplin10119
-Planta
-Dragón
-Hydrapple
-Hydrapple10199
-Planta
-Dragón
-Silicobra
-Silicobra8438
-Tierra
-Sandaconda
-Sandaconda8448
-Tierra
-Cramorant
-Cramorant8458
-Volador
-Agua
-Arrokuda
-Arrokuda8468
-Agua
-Barraskewda
-Barraskewda8478
-Agua
-Toxel
-Toxel8488
-Eléctrico
-Veneno
-Toxtricity
-Toxtricity8498
-Eléctrico
-Veneno
-Sizzlipede
-Sizzlipede8508
-Fuego
-Bicho
-Centiskorch
-Centiskorch8518
-Fuego
-Bicho
-Clobbopus
-Clobbopus8528
-Lucha
-Grapploct
-Grapploct8538
-Lucha
-Sinistea
-Sinistea8548
-Fantasma
-Polteageist
-Polteageist8558
-Fantasma
-Hatenna
-Hatenna8568
-Psíquico
-Hattrem
-Hattrem8578
-Psíquico
-Hatterene
-Hatterene8588
-Psíquico
-Hada
-Impidimp
-Impidimp8598
-Siniestro
-Hada
-Morgrem
-Morgrem8608
-Siniestro
-Hada
-Grimmsnarl
-Grimmsnarl8618
-Siniestro
-Hada
-Zigzagoon de Galar
-Zigzagoon de Galar2633
-Siniestro
-Normal
-Linoone de Galar
-Linoone de Galar2643
-Siniestro
-Normal
-Obstagoon
-Obstagoon8628
-Siniestro
-Normal
-Meowth de Galar
-Meowth de Galar521
-Acero
-Perrserker
-Perrserker8638
-Acero
-Corsola de Galar
-Corsola de Galar2222
-Fantasma
-Cursola
-Cursola8648
-Fantasma
-Farfetch'd de Galar
-Farfetch'd de Galar831
-Lucha
-Sirfetch'd
-Sirfetch'd8658
-Lucha
-Mr. Mime de Galar
-Mr. Mime de Galar1221
-Hielo
-Psíquico
-Mr. Rime
-Mr. Rime8668
-Hielo
-Psíquico
-Yamask de Galar
-Yamask de Galar5625
-Tierra
-Fantasma
-Runerigus
-Runerigus8678
-Tierra
-Fantasma
-Milcery
-Milcery8688
-Hada
-Alcremie
-Alcremie8698
-Hada
-Falinks
-Falinks8708
-Lucha
-Pincurchin
-Pincurchin8718
-Eléctrico
-Snom
-Snom8728
-Hielo
-Bicho
-Frosmoth
-Frosmoth8738
-Hielo
-Bicho
-Stonjourner
-Stonjourner8748
-Roca
-Eiscue
-Eiscue8758
-Hielo
-Indeedee
-Indeedee8768
-Psíquico
-Normal
-Morpeko
-Morpeko8778
-Eléctrico
-Siniestro
-Cufant
-Cufant8788
-Acero
-Copperajah
-Copperajah8798
-Acero
-Dracozolt
-Dracozolt8808
-Eléctrico
-Dragón
-Arctozolt
-Arctozolt8818
-Eléctrico
-Hielo
-Dracovish
-Dracovish8828
-Agua
-Dragón
-Arctovish
-Arctovish8838
-Agua
-Hielo
-Duraludon
-Duraludon8848
-Acero
-Dragón
-Dreepy
-Dreepy8858
-Dragón
-Fantasma
-Drakloak
-Drakloak8868
-Dragón
-Fantasma
-Dragapult
-Dragapult8878
-Dragón
-Fantasma
-Zacian
-Zacian8888
-Hada
-Zamazenta
-Zamazenta8898
-Lucha
-Eternatus
-Eternatus8908
-Veneno
-Dragón
-Kubfu
-Kubfu8918
-Lucha
-Urshifu
-Urshifu8928
-Lucha
-Agua
-Zarude
-Zarude8938
-Siniestro
-Planta
-Regieleki
-Regieleki8948
-Eléctrico
-Regidrago
-Regidrago8958
-Dragón
-Glastrier
-Glastrier8968
-Hielo
-Spectrier
-Spectrier8978
-Fantasma
-Calyrex
-Calyrex8988
-Psíquico
-Planta
-Wyrdeer
-Wyrdeer8998
-Normal
-Psíquico
-Kleavor
-Kleavor9008
-Bicho
-Roca
-Basculegion
-Basculegion9028
-Agua
-Fantasma
-Sneasel de Hisui
-Sneasel de Hisui2152
-Lucha
-Veneno
-Sneasler
-Sneasler9038
-Lucha
-Veneno
-Qwilfish de Hisui
-Qwilfish de Hisui2112
-Siniestro
-Veneno
-Overqwil
-Overqwil9048
-Siniestro
-Veneno
-Enamorus
-Enamorus9058
-Hada
-Volador
-Sprigatito
-Sprigatito9069
-Planta
-Floragato
-Floragato9079
-Planta
-Meowscarada
-Meowscarada9089
-Planta
-Siniestro
-Fuecoco
-Fuecoco9099
-Fuego
-Crocalor
-Crocalor9109
-Fuego
-Skeledirge
-Skeledirge9119
-Fuego
-Fantasma
-Quaxly
-Quaxly9129
-Agua
-Quaxwell
-Quaxwell9139
-Agua
-Quaquaval
-Quaquaval9149
-Agua
-Lucha
-Lechonk
-Lechonk9159
-Normal
-Oinkologne
-Oinkologne9169
-Normal
-Tarountula
-Tarountula9179
-Bicho
-Spidops
-Spidops9189
-Bicho
-Nymble
-Nymble9199
-Bicho
-Lokix
-Lokix9209
-Bicho
-Siniestro
-Pawmi
-Pawmi9219
-Eléctrico
-Pawmo
-Pawmo9229
-Eléctrico
-Lucha
-Pawmot
-Pawmot9239
-Eléctrico
-Lucha
-Tandemaus
-Tandemaus9249
-Normal
-Maushold
-Maushold9259
-Normal
-Fidough
-Fidough9269
-Hada
-Dachsbun
-Dachsbun9279
-Hada
-Smoliv
-Smoliv9289
-Planta
-Normal
-Dolliv
-Dolliv9299
-Planta
-Normal
-Arboliva
-Arboliva9309
-Planta
-Normal
-Squawkabilly
-Squawkabilly9319
-Normal
-Volador
-Nacli
-Nacli9329
-Roca
-Naclstack
-Naclstack9339
-Roca
-Garganacl
-Garganacl9349
-Roca
-Charcadet
-Charcadet9359
-Fuego
-Armarouge
-Armarouge9369
-Fuego
-Psíquico
-Ceruledge
-Ceruledge9379
-Fuego
-Fantasma
-Tadbulb
-Tadbulb9389
-Eléctrico
-Bellibolt
-Bellibolt9399
-Eléctrico
-Wattrel
-Wattrel9409
-Eléctrico
-Volador
-Kilowattrel
-Kilowattrel9419
-Eléctrico
-Volador
-Maschiff
-Maschiff9429
-Siniestro
-Mabosstiff
-Mabosstiff9439
-Siniestro
-Shroodle
-Shroodle9449
-Veneno
-Normal
-Grafaiai
-Grafaiai9459
-Veneno
-Normal
-Bramblin
-Bramblin9469
-Planta
-Fantasma
-Brambleghast
-Brambleghast9479
-Planta
-Fantasma
-Toedscool
-Toedscool9489
-Tierra
-Planta
-Toedscruel
-Toedscruel9499
-Tierra
-Planta
-Klawf
-Klawf9509
-Roca
-Capsakid
-Capsakid9519
-Planta
-Scovillain
-Scovillain9529
-Planta
-Fuego
-Rellor
-Rellor9539
-Bicho
-Rabsca
-Rabsca9549
-Bicho
-Psíquico
-Flittle
-Flittle9559
-Psíquico
-Espathra
-Espathra9569
-Psíquico
-Tinkatink
-Tinkatink9579
-Hada
-Acero
-Tinkatuff
-Tinkatuff9589
-Hada
-Acero
-Tinkaton
-Tinkaton9599
-Hada
-Acero
-Wiglett
-Wiglett9609
-Agua
-Wugtrio
-Wugtrio9619
-Agua
-Bombirdier
-Bombirdier9629
-Volador
-Siniestro
-Finizen
-Finizen9639
-Agua
-Palafin
-Palafin9649
-Agua
-Varoom
-Varoom9659
-Acero
-Veneno
-Revavroom
-Revavroom9669
-Acero
-Veneno
-Cyclizar
-Cyclizar9679
-Dragón
-Normal
-Orthworm
-Orthworm9689
-Acero
-Glimmet
-Glimmet9699
-Roca
-Veneno
-Glimmora
-Glimmora9709
-Roca
-Veneno
-Greavard
-Greavard9719
-Fantasma
-Houndstone
-Houndstone9729
-Fantasma
-Flamigo
-Flamigo9739
-Volador
-Lucha
-Cetoddle
-Cetoddle9749
-Hielo
-Cetitan
-Cetitan9759
-Hielo
-Veluza
-Veluza9769
-Agua
-Psíquico
-Dondozo
-Dondozo9779
-Agua
-Tatsugiri
-Tatsugiri9789
-Dragón
-Agua
-Wooper de Paldea
-Wooper de Paldea1942
-Veneno
-Tierra
-Clodsire
-Clodsire9809
-Veneno
-Tierra
-Farigiraf
-Farigiraf9819
-Normal
-Psíquico
-Great Tusk
-Great Tusk9849
-Tierra
-Lucha
-Scream Tail
-Scream Tail9859
-Hada
-Psíquico
-Brute Bonnet
-Brute Bonnet9869
-Planta
-Siniestro
-Flutter Mane
-Flutter Mane9879
-Fantasma
-Hada
-Slither Wing
-Slither Wing9889
-Bicho
-Lucha
-Sandy Shocks
-Sandy Shocks9899
-Eléctrico
-Tierra
-Iron Treads
-Iron Treads9909
-Tierra
-Acero
-Iron Bundle
-Iron Bundle9919
-Hielo
-Agua
-Iron Hands
-Iron Hands9929
-Lucha
-Eléctrico
-Iron Jugulis
-Iron Jugulis9939
-Siniestro
-Volador
-Iron Moth
-Iron Moth9949
-Fuego
-Veneno
-Iron Thorns
-Iron Thorns9959
-Roca
-Eléctrico
-Frigibax
-Frigibax9969
-Dragón
-Hielo
-Arctibax
-Arctibax9979
-Dragón
-Hielo
-Baxcalibur
-Baxcalibur9989
-Dragón
-Hielo
-Gimmighoul
-Gimmighoul9999
-Fantasma
-Gholdengo
-Gholdengo10009
-Acero
-Fantasma
-Wo-Chien
-Wo-Chien10019
-Siniestro
-Planta
-Chien-Pao
-Chien-Pao10029
-Siniestro
-Hielo
-Ting-Lu
-Ting-Lu10039
-Siniestro
-Tierra
-Chi-Yu
-Chi-Yu10049
-Siniestro
-Fuego
-Roaring Moon
-Roaring Moon10059
-Dragón
-Siniestro
-Iron Valiant
-Iron Valiant10069
-Hada
-Lucha
-Koraidon
-Koraidon10079
-Lucha
-Dragón
-Miraidon
-Miraidon10089
-Eléctrico
-Dragón
-Walking Wake
-Walking Wake10099
-Agua
-Dragón
-Iron Leaves
-Iron Leaves10109
-Planta
-Psíquico
-Poltchageist
-Poltchageist10129
-Planta
-Fantasma
-Sinistcha
-Sinistcha10139
-Planta
-Fantasma
-Okidogi
-Okidogi10149
-Veneno
-Lucha
-Munkidori
-Munkidori10159
-Veneno
-Psíquico
-Fezandipiti
-Fezandipiti10169
-Veneno
-Hada
-Ogerpon
-Ogerpon10179
-Planta
-Archaludon
-Archaludon10189
-Acero
-Dragón
-Gouging Fire
-Gouging Fire10209
-Fuego
-Dragón
-Raging Bolt
-Raging Bolt10219
-Eléctrico
-Dragón
-Iron Boulder
-Iron Boulder10229
-Roca
-Psíquico
-Iron Crown
-Iron Crown10239
-Acero
-Psíquico
-Terapagos
-Terapagos10249
-Normal
-Pecharunt
-Pecharunt10259
-Veneno
-Fantasma
+Bulbasaur Planta Veneno
+Ivysaur Planta Veneno
+Venusaur Planta Veneno
+Charmander Fuego
+Charmeleon Fuego
+Charizard Fuego Volador
+Squirtle Agua
+Wartortle Agua
+Blastoise Agua
+Caterpie Bicho
+Metapod Bicho
+Butterfree Bicho Volador
+Weedle Bicho Veneno
+Kakuna Bicho Veneno
+Beedrill Bicho Veneno
+Pidgey Normal Volador
+Pidgeotto Normal Volador
+Pidgeot Normal Volador
+Rattata Normal
+Raticate Normal
+Spearow Normal Volador
+Fearow Normal Volador
+Ekans Veneno
+Arbok Veneno
+Pichu Eléctrico
+Pikachu Eléctrico
+Raichu Eléctrico
+Sandshrew Tierra
+Sandslash Tierra
+Nidoran♀ Veneno
+Nidorina Veneno
+Nidoqueen Veneno Tierra
+Nidoran♂ Veneno
+Nidorino Veneno
+Nidoking Veneno Tierra
+Cleffa Hada
+Clefairy Hada
+Clefable Hada
+Vulpix Fuego
+Ninetales Fuego
+Igglybuff Normal Hada
+Jigglypuff Normal Hada
+Wigglytuff Normal Hada
+Zubat Veneno Volador
+Golbat Veneno Volador
+Crobat Veneno Volador
+Oddish Planta Veneno
+Gloom Planta Veneno
+Vileplume Planta Veneno
+Bellossom Planta
+Paras Bicho Planta
+Parasect Bicho Planta
+Venonat Bicho Veneno
+Venomoth Bicho Veneno
+Diglett Tierra
+Dugtrio Tierra
+Meowth Normal
+Persian Normal
+Psyduck Agua
+Golduck Agua
+Mankey Lucha
+Primeape Lucha
+Annihilape Lucha Fantasma
+Growlithe Fuego
+Arcanine Fuego
+Poliwag Agua
+Poliwhirl Agua
+Poliwrath Agua Lucha
+Politoed Agua
+Abra Psíquico
+Kadabra Psíquico
+Alakazam Psíquico
+Machop Lucha
+Machoke Lucha
+Machamp Lucha
+Bellsprout Planta Veneno
+Weepinbell Planta Veneno
+Victreebel Planta Veneno
+Tentacool Agua Veneno
+Tentacruel Agua Veneno
+Geodude Roca Tierra
+Graveler Roca Tierra
+Golem Roca Tierra
+Ponyta Fuego
+Rapidash Fuego
+Slowpoke Agua Psíquico
+Slowbro Agua Psíquico
+Slowking Agua Psíquico
+Magnemite Eléctrico Acero
+Magneton Eléctrico Acero
+Magnezone Eléctrico Acero
+Farfetch'd Normal Volador
+Doduo Normal Volador
+Dodrio Normal Volador
+Seel Agua
+Dewgong Agua Hielo
+Grimer Veneno
+Muk Veneno
+Shellder Agua
+Cloyster Agua Hielo
+Gastly Fantasma Veneno
+Haunter Fantasma Veneno
+Gengar Fantasma Veneno
+Onix Roca Tierra
+Steelix Acero Tierra
+Drowzee Psíquico
+Hypno Psíquico
+Krabby Agua
+Kingler Agua
+Voltorb Eléctrico
+Electrode Eléctrico
+Exeggcute Planta Psíquico
+Exeggutor Planta Psíquico
+Cubone Tierra
+Marowak Tierra
+Tyrogue Lucha
+Hitmonlee Lucha
+Hitmonchan Lucha
+Hitmontop Lucha
+Lickitung Normal
+Lickilicky Normal
+Koffing Veneno
+Weezing Veneno
+Rhyhorn Tierra Roca
+Rhydon Tierra Roca
+Rhyperior Tierra Roca
+Happiny Normal
+Chansey Normal
+Blissey Normal
+Tangela Planta
+Tangrowth Planta
+Kangaskhan Normal
+Horsea Agua
+Seadra Agua
+Kingdra Agua Dragón
+Goldeen Agua
+Seaking Agua
+Staryu Agua
+Starmie Agua Psíquico
+Mime Jr. Psíquico Hada
+Mr. Mime Psíquico Hada
+Scyther Bicho Volador
+Scizor Bicho Acero
+Smoochum Hielo Psíquico
+Jynx Hielo Psíquico
+Elekid Eléctrico
+Electabuzz Eléctrico
+Electivire Eléctrico
+Magby Fuego
+Magmar Fuego
+Magmortar Fuego
+Pinsir Bicho
+Tauros Normal
+Magikarp Agua
+Gyarados Agua Volador
+Lapras Agua Hielo
+Ditto Normal
+Eevee Normal
+Vaporeon Agua
+Jolteon Eléctrico
+Flareon Fuego
+Espeon Psíquico
+Umbreon Siniestro
+Leafeon Planta
+Glaceon Hielo
+Sylveon Hada
+Porygon Normal
+Porygon2 Normal
+Porygon-Z Normal
+Omanyte Roca Agua
+Omastar Roca Agua
+Kabuto Roca Agua
+Kabutops Roca Agua
+Aerodactyl Roca Volador
+Munchlax Normal
+Snorlax Normal
+Articuno Hielo Volador
+Zapdos Eléctrico Volador
+Moltres Fuego Volador
+Dratini Dragón
+Dragonair Dragón
+Dragonite Dragón Volador
+Mewtwo Psíquico
+Mew Psíquico
+Chikorita Planta
+Bayleef Planta
+Meganium Planta
+Cyndaquil Fuego
+Quilava Fuego
+Typhlosion Fuego
+Totodile Agua
+Croconaw Agua
+Feraligatr Agua
+Sentret Normal
+Furret Normal
+Hoothoot Normal Volador
+Noctowl Normal Volador
+Ledyba Bicho Volador
+Ledian Bicho Volador
+Spinarak Bicho Veneno
+Ariados Bicho Veneno
+Chinchou Agua Eléctrico
+Lanturn Agua Eléctrico
+Togepi Hada
+Togetic Hada Volador
+Togekiss Hada Volador
+Natu Psíquico Volador
+Xatu Psíquico Volador
+Mareep Eléctrico
+Flaaffy Eléctrico
+Ampharos Eléctrico
+Azurill Normal Hada
+Marill Agua Hada
+Azumarill Agua Hada
+Bonsly Roca
+Sudowoodo Roca
+Hoppip Planta Volador
+Skiploom Planta Volador
+Jumpluff Planta Volador
+Aipom Normal
+Ambipom Normal
+Sunkern Planta
+Sunflora Planta
+Yanma Bicho Volador
+Yanmega Bicho Volador
+Wooper Agua Tierra
+Quagsire Agua Tierra
+Murkrow Siniestro Volador
+Honchkrow Siniestro Volador
+Misdreavus Fantasma
+Mismagius Fantasma
+Unown Psíquico
+Wynaut Psíquico
+Wobbuffet Psíquico
+Girafarig Normal Psíquico
+Pineco Bicho
+Forretress Bicho Acero
+Dunsparce Normal
+Dudunsparce Normal
+Gligar Tierra Volador
+Gliscor Tierra Volador
+Snubbull Hada
+Granbull Hada
+Qwilfish Agua Veneno
+Shuckle Bicho Roca
+Heracross Bicho Lucha
+Sneasel Siniestro Hielo
+Weavile Siniestro Hielo
+Teddiursa Normal
+Ursaring Normal
+Ursaluna Tierra Normal
+Slugma Fuego
+Magcargo Fuego Roca
+Swinub Hielo Tierra
+Piloswine Hielo Tierra
+Mamoswine Hielo Tierra
+Corsola Agua Roca
+Remoraid Agua
+Octillery Agua
+Delibird Hielo Volador
+Mantyke Agua Volador
+Mantine Agua Volador
+Skarmory Acero Volador
+Houndour Siniestro Fuego
+Houndoom Siniestro Fuego
+Phanpy Tierra
+Donphan Tierra
+Stantler Normal
+Smeargle Normal
+Miltank Normal
+Raikou Eléctrico
+Entei Fuego
+Suicune Agua
+Larvitar Roca Tierra
+Pupitar Roca Tierra
+Tyranitar Roca Siniestro
+Lugia Psíquico Volador
+Ho-Oh Fuego Volador
+Celebi Psíquico Planta
+Treecko Planta
+Grovyle Planta
+Sceptile Planta
+Torchic Fuego
+Combusken Fuego Lucha
+Blaziken Fuego Lucha
+Mudkip Agua
+Marshtomp Agua Tierra
+Swampert Agua Tierra
+Poochyena Siniestro
+Mightyena Siniestro
+Zigzagoon Normal
+Linoone Normal
+Wurmple Bicho
+Silcoon Bicho
+Cascoon Bicho
+Beautifly Bicho Volador
+Dustox Bicho Veneno
+Lotad Agua Planta
+Lombre Agua Planta
+Ludicolo Agua Planta
+Seedot Planta
+Nuzleaf Planta Siniestro
+Shiftry Planta Siniestro
+Taillow Normal Volador
+Swellow Normal Volador
+Wingull Agua Volador
+Pelipper Agua Volador
+Ralts Psíquico Hada
+Kirlia Psíquico Hada
+Gardevoir Psíquico Hada
+Gallade Psíquico Lucha
+Surskit Bicho Agua
+Masquerain Bicho Volador
+Shroomish Planta
+Breloom Planta Lucha
+Slakoth Normal
+Vigoroth Normal
+Slaking Normal
+Nincada Bicho Tierra
+Ninjask Bicho Volador
+Shedinja Bicho Fantasma
+Whismur Normal
+Loudred Normal
+Exploud Normal
+Makuhita Lucha
+Hariyama Lucha
+Nosepass Roca
+Probopass Roca Acero
+Skitty Normal
+Delcatty Normal
+Sableye Siniestro Fantasma
+Mawile Acero Hada
+Aron Acero Roca
+Lairon Acero Roca
+Aggron Acero Roca
+Meditite Lucha Psíquico
+Medicham Lucha Psíquico
+Electrike Eléctrico
+Manectric Eléctrico
+Plusle Eléctrico
+Minun Eléctrico
+Volbeat Bicho
+Illumise Bicho
+Budew Planta Veneno
+Roselia Planta Veneno
+Roserade Planta Veneno
+Gulpin Veneno
+Swalot Veneno
+Carvanha Agua Siniestro
+Sharpedo Agua Siniestro
+Wailmer Agua
+Wailord Agua
+Numel Fuego Tierra
+Camerupt Fuego Tierra
+Torkoal Fuego
+Spoink Psíquico
+Grumpig Psíquico
+Spinda Normal
+Trapinch Tierra
+Vibrava Tierra Dragón
+Flygon Tierra Dragón
+Cacnea Planta
+Cacturne Planta Siniestro
+Swablu Normal Volador
+Altaria Dragón Volador
+Zangoose Normal
+Seviper Veneno
+Lunatone Roca Psíquico
+Solrock Roca Psíquico
+Barboach Agua Tierra
+Whiscash Agua Tierra
+Corphish Agua
+Crawdaunt Agua Siniestro
+Baltoy Tierra Psíquico
+Claydol Tierra Psíquico
+Lileep Roca Planta
+Cradily Roca Planta
+Anorith Roca Bicho
+Armaldo Roca Bicho
+Feebas Agua
+Milotic Agua
+Castform Normal
+Kecleon Normal
+Shuppet Fantasma
+Banette Fantasma
+Duskull Fantasma
+Dusclops Fantasma
+Dusknoir Fantasma
+Tropius Planta Volador
+Chingling Psíquico
+Chimecho Psíquico
+Absol Siniestro
+Snorunt Hielo
+Glalie Hielo
+Froslass Hielo Fantasma
+Spheal Hielo Agua
+Sealeo Hielo Agua
+Walrein Hielo Agua
+Clamperl Agua
+Huntail Agua
+Gorebyss Agua
+Relicanth Agua Roca
+Luvdisc Agua
+Bagon Dragón
+Shelgon Dragón
+Salamence Dragón Volador
+Beldum Acero Psíquico
+Metang Acero Psíquico
+Metagross Acero Psíquico
+Regirock Roca
+Regice Hielo
+Registeel Acero
+Latias Dragón Psíquico
+Latios Dragón Psíquico
+Kyogre Agua
+Groudon Tierra
+Rayquaza Dragón Volador
+Jirachi Acero Psíquico
+Deoxys Psíquico
+Turtwig Planta
+Grotle Planta
+Torterra Planta Tierra
+Chimchar Fuego
+Monferno Fuego Lucha
+Infernape Fuego Lucha
+Piplup Agua
+Prinplup Agua
+Empoleon Agua Acero
+Starly Normal Volador
+Staravia Normal Volador
+Staraptor Normal Volador
+Bidoof Normal
+Bibarel Normal Agua
+Kricketot Bicho
+Kricketune Bicho
+Shinx Eléctrico
+Luxio Eléctrico
+Luxray Eléctrico
+Cranidos Roca
+Rampardos Roca
+Shieldon Roca Acero
+Bastiodon Roca Acero
+Burmy Bicho
+Wormadam Bicho Planta
+Mothim Bicho Volador
+Combee Bicho Volador
+Vespiquen Bicho Volador
+Pachirisu Eléctrico
+Buizel Agua
+Floatzel Agua
+Cherubi Planta
+Cherrim Planta
+Shellos Agua
+Gastrodon Agua Tierra
+Drifloon Fantasma Volador
+Drifblim Fantasma Volador
+Buneary Normal
+Lopunny Normal
+Glameow Normal
+Purugly Normal
+Stunky Veneno Siniestro
+Skuntank Veneno Siniestro
+Bronzor Acero Psíquico
+Bronzong Acero Psíquico
+Chatot Normal Volador
+Spiritomb Fantasma Siniestro
+Gible Dragón Tierra
+Gabite Dragón Tierra
+Garchomp Dragón Tierra
+Riolu Lucha
+Lucario Lucha Acero
+Hippopotas Tierra
+Hippowdon Tierra
+Skorupi Veneno Bicho
+Drapion Veneno Siniestro
+Croagunk Veneno Lucha
+Toxicroak Veneno Lucha
+Carnivine Planta
+Finneon Agua
+Lumineon Agua
+Snover Planta Hielo
+Abomasnow Planta Hielo
+Rotom Eléctrico Fantasma
+Uxie Psíquico
+Mesprit Psíquico
+Azelf Psíquico
+Dialga Acero Dragón
+Palkia Agua Dragón
+Heatran Fuego Acero
+Regigigas Normal
+Giratina Fantasma Dragón
+Cresselia Psíquico
+Phione Agua
+Manaphy Agua
+Darkrai Siniestro
+Shaymin Planta
+Arceus Normal
+Victini Psíquico Fuego
+Snivy Planta
+Servine Planta
+Serperior Planta
+Tepig Fuego
+Pignite Fuego Lucha
+Emboar Fuego Lucha
+Oshawott Agua
+Dewott Agua
+Samurott Agua
+Patrat Normal
+Watchog Normal
+Lillipup Normal
+Herdier Normal
+Stoutland Normal
+Purrloin Siniestro
+Liepard Siniestro
+Pansage Planta
+Simisage Planta
+Pansear Fuego
+Simisear Fuego
+Panpour Agua
+Simipour Agua
+Munna Psíquico
+Musharna Psíquico
+Pidove Normal Volador
+Tranquill Normal Volador
+Unfezant Normal Volador
+Blitzle Eléctrico
+Zebstrika Eléctrico
+Roggenrola Roca
+Boldore Roca
+Gigalith Roca
+Woobat Psíquico Volador
+Swoobat Psíquico Volador
+Drilbur Tierra
+Excadrill Tierra Acero
+Audino Normal
+Timburr Lucha
+Gurdurr Lucha
+Conkeldurr Lucha
+Tympole Agua
+Palpitoad Agua Tierra
+Seismitoad Agua Tierra
+Throh Lucha
+Sawk Lucha
+Sewaddle Bicho Planta
+Swadloon Bicho Planta
+Leavanny Bicho Planta
+Venipede Bicho Veneno
+Whirlipede Bicho Veneno
+Scolipede Bicho Veneno
+Cottonee Planta Hada
+Whimsicott Planta Hada
+Petilil Planta
+Lilligant Planta
+Basculin Agua
+Sandile Tierra Siniestro
+Krokorok Tierra Siniestro
+Krookodile Tierra Siniestro
+Darumaka Fuego
+Darmanitan Fuego
+Maractus Planta
+Dwebble Bicho Roca
+Crustle Bicho Roca
+Scraggy Siniestro Lucha
+Scrafty Siniestro Lucha
+Sigilyph Psíquico Volador
+Yamask Fantasma
+Cofagrigus Fantasma
+Tirtouga Agua Roca
+Carracosta Agua Roca
+Archen Roca Volador
+Archeops Roca Volador
+Trubbish Veneno
+Garbodor Veneno
+Zorua Siniestro
+Zoroark Siniestro
+Minccino Normal
+Cinccino Normal
+Gothita Psíquico
+Gothorita Psíquico
+Gothitelle Psíquico
+Solosis Psíquico
+Duosion Psíquico
+Reuniclus Psíquico
+Ducklett Agua Volador
+Swanna Agua Volador
+Vanillite Hielo
+Vanillish Hielo
+Vanilluxe Hielo
+Deerling Normal Planta
+Sawsbuck Normal Planta
+Emolga Eléctrico Volador
+Karrablast Bicho
+Escavalier Bicho Acero
+Foongus Planta Veneno
+Amoonguss Planta Veneno
+Frillish Agua Fantasma
+Jellicent Agua Fantasma
+Alomomola Agua
+Joltik Bicho Eléctrico
+Galvantula Bicho Eléctrico
+Ferroseed Planta Acero
+Ferrothorn Planta Acero
+Klink Acero
+Klang Acero
+Klinklang Acero
+Tynamo Eléctrico
+Eelektrik Eléctrico
+Eelektross Eléctrico
+Elgyem Psíquico
+Beheeyem Psíquico
+Litwick Fantasma Fuego
+Lampent Fantasma Fuego
+Chandelure Fantasma Fuego
+Axew Dragón
+Fraxure Dragón
+Haxorus Dragón
+Cubchoo Hielo
+Beartic Hielo
+Cryogonal Hielo
+Shelmet Bicho
+Accelgor Bicho
+Stunfisk Tierra Eléctrico
+Mienfoo Lucha
+Mienshao Lucha
+Druddigon Dragón
+Golett Tierra Fantasma
+Golurk Tierra Fantasma
+Pawniard Siniestro Acero
+Bisharp Siniestro Acero
+Kingambit Siniestro Acero
+Bouffalant Normal
+Rufflet Normal Volador
+Braviary Normal Volador
+Vullaby Siniestro Volador
+Mandibuzz Siniestro Volador
+Heatmor Fuego
+Durant Bicho Acero
+Deino Siniestro Dragón
+Zweilous Siniestro Dragón
+Hydreigon Siniestro Dragón
+Larvesta Bicho Fuego
+Volcarona Bicho Fuego
+Cobalion Acero Lucha
+Terrakion Roca Lucha
+Virizion Planta Lucha
+Tornadus Volador
+Thundurus Eléctrico Volador
+Reshiram Dragón Fuego
+Zekrom Dragón Eléctrico
+Landorus Tierra Volador
+Kyurem Dragón Hielo
+Keldeo Agua Lucha
+Meloetta Normal Psíquico
+Genesect Bicho Acero
+Chespin Planta
+Quilladin Planta
+Chesnaught Planta Lucha
+Fennekin Fuego
+Braixen Fuego
+Delphox Fuego Psíquico
+Froakie Agua
+Frogadier Agua
+Greninja Agua Siniestro
+Bunnelby Normal
+Diggersby Normal Tierra
+Fletchling Normal Volador
+Fletchinder Fuego Volador
+Talonflame Fuego Volador
+Scatterbug Bicho
+Spewpa Bicho
+Vivillon Bicho Volador
+Litleo Fuego Normal
+Pyroar Fuego Normal
+Flabébé Hada
+Floette Hada
+Florges Hada
+Skiddo Planta
+Gogoat Planta
+Pancham Lucha
+Pangoro Lucha Siniestro
+Furfrou Normal
+Espurr Psíquico
+Meowstic Psíquico
+Honedge Acero Fantasma
+Doublade Acero Fantasma
+Aegislash Acero Fantasma
+Spritzee Hada
+Aromatisse Hada
+Swirlix Hada
+Slurpuff Hada
+Inkay Siniestro Psíquico
+Malamar Siniestro Psíquico
+Binacle Roca Agua
+Barbaracle Roca Agua
+Skrelp Veneno Agua
+Dragalge Veneno Dragón
+Clauncher Agua
+Clawitzer Agua
+Helioptile Eléctrico Normal
+Heliolisk Eléctrico Normal
+Tyrunt Roca Dragón
+Tyrantrum Roca Dragón
+Amaura Roca Hielo
+Aurorus Roca Hielo
+Hawlucha Lucha Volador
+Dedenne Eléctrico Hada
+Carbink Roca Hada
+Goomy Dragón
+Sliggoo Dragón
+Goodra Dragón
+Klefki Acero Hada
+Phantump Fantasma Planta
+Trevenant Fantasma Planta
+Pumpkaboo Fantasma Planta
+Gourgeist Fantasma Planta
+Bergmite Hielo
+Avalugg Hielo
+Noibat Volador Dragón
+Noivern Volador Dragón
+Xerneas Hada
+Yveltal Siniestro Volador
+Zygarde (Forma 10%) Dragón Tierra
+Zygarde (Forma 50%) Dragón Tierra
+Zygarde (Forma Completa) Dragón Tierra
+Diancie Roca Hada
+Hoopa Psíquico Fantasma
+Volcanion Fuego Agua
+Rowlet Planta Volador
+Dartrix Planta Volador
+Decidueye Planta Fantasma
+Litten Fuego
+Torracat Fuego
+Incineroar Fuego Siniestro
+Popplio Agua
+Brionne Agua
+Primarina Agua Hada
+Pikipek Normal Volador
+Trumbeak Normal Volador
+Toucannon Normal Volador
+Yungoos Normal
+Gumshoos Normal
+Grubbin Bicho
+Charjabug Bicho Eléctrico
+Vikavolt Bicho Eléctrico
+Crabrawler Lucha
+Crabominable Lucha Hielo
+Oricorio Fuego Volador
+Cutiefly Bicho Hada
+Ribombee Bicho Hada
+Rockruff Roca
+Lycanroc Roca
+Wishiwashi Agua
+Mareanie Veneno Agua
+Toxapex Veneno Agua
+Mudbray Tierra
+Mudsdale Tierra
+Dewpider Agua Bicho
+Araquanid Agua Bicho
+Fomantis Planta
+Lurantis Planta
+Morelull Planta Hada
+Shiinotic Planta Hada
+Salandit Veneno Fuego
+Salazzle Veneno Fuego
+Stufful Normal Lucha
+Bewear Normal Lucha
+Bounsweet Planta
+Steenee Planta
+Tsareena Planta
+Comfey Hada
+Oranguru Normal Psíquico
+Passimian Lucha
+Wimpod Bicho Agua
+Golisopod Bicho Agua
+Sandygast Fantasma Tierra
+Palossand Fantasma Tierra
+Pyukumuku Agua
+Type: Null Normal
+Silvally Normal
+Minior Roca Volador
+Komala Normal
+Turtonator Fuego Dragón
+Togedemaru Eléctrico Acero
+Mimikyu Fantasma Hada
+Bruxish Agua Psíquico
+Drampa Normal Dragón
+Dhelmise Fantasma Planta
+Jangmo-o Dragón
+Hakamo-o Dragón Lucha
+Kommo-o Dragón Lucha
+Tapu Koko Eléctrico Hada
+Tapu Lele Psíquico Hada
+Tapu Bulu Planta Hada
+Tapu Fini Agua Hada
+Cosmog Psíquico
+Cosmoem Psíquico
+Solgaleo Psíquico Acero
+Lunala Psíquico Fantasma
+Nihilego Roca Veneno
+Buzzwole Bicho Lucha
+Pheromosa Bicho Lucha
+Xurkitree Eléctrico
+Celesteela Acero Volador
+Kartana Planta Acero
+Guzzlord Siniestro Dragón
+Necrozma Psíquico
+Magearna Acero Hada
+Marshadow Lucha Fantasma
+Poipole Veneno
+Naganadel Veneno Dragón
+Stakataka Roca Acero
+Blacephalon Fuego Fantasma
+Zeraora Eléctrico
+Meltan Acero
+Melmetal Acero
+Grookey Planta
+Thwackey Planta
+Rillaboom Planta
+Scorbunny Fuego
+Raboot Fuego
+Cinderace Fuego
+Sobble Agua
+Drizzile Agua
+Inteleon Agua
+Skwovet Normal
+Greedent Normal
+Rookidee Volador
+Corvisquire Volador
+Corviknight Volador Acero
+Blipbug Bicho
+Dottler Bicho Psíquico
+Orbeetle Bicho Psíquico
+Nickit Siniestro
+Thievul Siniestro
+Gossifleur Planta
+Eldegoss Planta
+Wooloo Normal
+Dubwool Normal
+Chewtle Agua
+Drednaw Agua Roca
+Yamper Eléctrico
+Boltund Eléctrico
+Rolycoly Roca
+Carkol Roca Fuego
+Coalossal Roca Fuego
+Applin Planta Dragón
+Flapple Planta Dragón
+Appletun Planta Dragón
+Dipplin Planta Dragón
+Hydrapple Planta Dragón
+Silicobra Tierra
+Sandaconda Tierra
+Cramorant Volador Agua
+Arrokuda Agua
+Barraskewda Agua
+Toxel Eléctrico Veneno
+Toxtricity Eléctrico Veneno
+Sizzlipede Fuego Bicho
+Centiskorch Fuego Bicho
+Clobbopus Lucha
+Grapploct Lucha
+Sinistea Fantasma
+Polteageist Fantasma
+Hatenna Psíquico
+Hattrem Psíquico
+Hatterene Psíquico Hada
+Impidimp Siniestro Hada
+Morgrem Siniestro Hada
+Grimmsnarl Siniestro Hada
+Zigzagoon de Galar Siniestro Normal
+Linoone de Galar Siniestro Normal
+Obstagoon Siniestro Normal
+Meowth de Galar Acero
+Perrserker Acero
+Corsola de Galar Fantasma
+Cursola Fantasma
+Farfetch'd de Galar Lucha
+Sirfetch'd Lucha
+Mr. Mime de Galar Hielo Psíquico
+Mr. Rime Hielo Psíquico
+Yamask de Galar Tierra Fantasma
+Runerigus Tierra Fantasma
+Milcery Hada
+Alcremie Hada
+Falinks Lucha
+Pincurchin Eléctrico
+Snom Hielo Bicho
+Frosmoth Hielo Bicho
+Stonjourner Roca
+Eiscue Hielo
+Indeedee Psíquico Normal
+Morpeko Eléctrico Siniestro
+Cufant Acero
+Copperajah Acero
+Dracozolt Eléctrico Dragón
+Arctozolt Eléctrico Hielo
+Dracovish Agua Dragón
+Arctovish Agua Hielo
+Duraludon Acero Dragón
+Dreepy Dragón Fantasma
+Drakloak Dragón Fantasma
+Dragapult Dragón Fantasma
+Zacian Hada
+Zamazenta Lucha
+Eternatus Veneno Dragón
+Kubfu Lucha
+Urshifu Lucha Agua
+Zarude Siniestro Planta
+Regieleki Eléctrico
+Regidrago Dragón
+Glastrier Hielo
+Spectrier Fantasma
+Calyrex Psíquico Planta
+Wyrdeer Normal Psíquico
+Kleavor Bicho Roca
+Basculegion Agua Fantasma
+Sneasel de Hisui Lucha Veneno
+Sneasler Lucha Veneno
+Qwilfish de Hisui Siniestro Veneno
+Overqwil Siniestro Veneno
+Enamorus Hada Volador
+Sprigatito Planta
+Floragato Planta
+Meowscarada Planta Siniestro
+Fuecoco Fuego
+Crocalor Fuego
+Skeledirge Fuego Fantasma
+Quaxly Agua
+Quaxwell Agua
+Quaquaval Agua Lucha
+Lechonk Normal
+Oinkologne Normal
+Tarountula Bicho
+Spidops Bicho
+Nymble Bicho
+Lokix Bicho Siniestro
+Pawmi Eléctrico
+Pawmo Eléctrico Lucha
+Pawmot Eléctrico Lucha
+Tandemaus Normal
+Maushold Normal
+Fidough Hada
+Dachsbun Hada
+Smoliv Planta Normal
+Dolliv Planta Normal
+Arboliva Planta Normal
+Squawkabilly Normal Volador
+Nacli Roca
+Naclstack Roca
+Garganacl Roca
+Charcadet Fuego
+Armarouge Fuego Psíquico
+Ceruledge Fuego Fantasma
+Tadbulb Eléctrico
+Bellibolt Eléctrico
+Wattrel Eléctrico Volador
+Kilowattrel Eléctrico Volador
+Maschiff Siniestro
+Mabosstiff Siniestro
+Shroodle Veneno Normal
+Grafaiai Veneno Normal
+Bramblin Planta Fantasma
+Brambleghast Planta Fantasma
+Toedscool Tierra Planta
+Toedscruel Tierra Planta
+Klawf Roca
+Capsakid Planta
+Scovillain Planta Fuego
+Rellor Bicho
+Rabsca Bicho Psíquico
+Flittle Psíquico
+Espathra Psíquico
+Tinkatink Hada Acero
+Tinkatuff Hada Acero
+Tinkaton Hada Acero
+Wiglett Agua
+Wugtrio Agua
+Bombirdier Volador Siniestro
+Finizen Agua
+Palafin Agua
+Varoom Acero Veneno
+Revavroom Acero Veneno
+Cyclizar Dragón Normal
+Orthworm Acero
+Glimmet Roca Veneno
+Glimmora Roca Veneno
+Greavard Fantasma
+Houndstone Fantasma
+Flamigo Volador Lucha
+Cetoddle Hielo
+Cetitan Hielo
+Veluza Agua Psíquico
+Dondozo Agua
+Tatsugiri Dragón Agua
+Wooper de Paldea Veneno Tierra
+Clodsire Veneno Tierra
+Farigiraf Normal Psíquico
+Great Tusk Tierra Lucha
+Scream Tail Hada Psíquico
+Brute Bonnet Planta Siniestro
+Flutter Mane Fantasma Hada
+Slither Wing Bicho Lucha
+Sandy Shocks Eléctrico Tierra
+Iron Treads Tierra Acero
+Iron Bundle Hielo Agua
+Iron Hands Lucha Eléctrico
+Iron Jugulis Siniestro Volador
+Iron Moth Fuego Veneno
+Iron Thorns Roca Eléctrico
+Frigibax Dragón Hielo
+Arctibax Dragón Hielo
+Baxcalibur Dragón Hielo
+Gimmighoul Fantasma
+Gholdengo Acero Fantasma
+Wo-Chien Siniestro Planta
+Chien-Pao Siniestro Hielo
+Ting-Lu Siniestro Tierra
+Chi-Yu Siniestro Fuego
+Roaring Moon Dragón Siniestro
+Iron Valiant Hada Lucha
+Koraidon Lucha Dragón
+Miraidon Eléctrico Dragón
+Walking Wake Agua Dragón
+Iron Leaves Planta Psíquico
+Poltchageist Planta Fantasma
+Sinistcha Planta Fantasma
+Okidogi Veneno Lucha
+Munkidori Veneno Psíquico
+Fezandipiti Veneno Hada
+Ogerpon Planta
+Archaludon Acero Dragón
+Gouging Fire Fuego Dragón
+Raging Bolt Eléctrico Dragón
+Iron Boulder Roca Psíquico
+Iron Crown Acero Psíquico
+Terapagos Normal
+Pecharunt Veneno Fantasma
