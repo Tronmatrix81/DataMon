@@ -137,8 +137,8 @@ Goldeen Agua
 Seaking Agua
 Staryu Agua
 Starmie Agua Psíquico
-Mime Jr. Psíquico Hada
-Mr. Mime Psíquico Hada
+MimeJr. Psíquico Hada
+Mr.Mime Psíquico Hada
 Scyther Bicho Volador
 Scizor Bicho Acero
 Smoochum Hielo Psíquico
@@ -719,9 +719,9 @@ Noibat Volador Dragón
 Noivern Volador Dragón
 Xerneas Hada
 Yveltal Siniestro Volador
-Zygarde (Forma 10%) Dragón Tierra
-Zygarde (Forma 50%) Dragón Tierra
-Zygarde (Forma Completa) Dragón Tierra
+Zygarde(Forma10%) Dragón Tierra
+Zygarde(Forma50%) Dragón Tierra
+Zygarde(FormaCompleta) Dragón Tierra
 Diancie Roca Hada
 Hoopa Psíquico Fantasma
 Volcanion Fuego Agua
@@ -775,7 +775,7 @@ Golisopod Bicho Agua
 Sandygast Fantasma Tierra
 Palossand Fantasma Tierra
 Pyukumuku Agua
-Type: Null Normal
+Type:Null Normal
 Silvally Normal
 Minior Roca Volador
 Komala Normal
@@ -788,10 +788,10 @@ Dhelmise Fantasma Planta
 Jangmo-o Dragón
 Hakamo-o Dragón Lucha
 Kommo-o Dragón Lucha
-Tapu Koko Eléctrico Hada
-Tapu Lele Psíquico Hada
-Tapu Bulu Planta Hada
-Tapu Fini Agua Hada
+TapuKoko Eléctrico Hada
+TapuLele Psíquico Hada
+TapuBulu Planta Hada
+TapuFini Agua Hada
 Cosmog Psíquico
 Cosmoem Psíquico
 Solgaleo Psíquico Acero
@@ -867,18 +867,18 @@ Hatterene Psíquico Hada
 Impidimp Siniestro Hada
 Morgrem Siniestro Hada
 Grimmsnarl Siniestro Hada
-Zigzagoon de Galar Siniestro Normal
-Linoone de Galar Siniestro Normal
+ZigzagoondeGalar Siniestro Normal
+LinoonedeGalar Siniestro Normal
 Obstagoon Siniestro Normal
-Meowth de Galar Acero
+MeowthdeGalar Acero
 Perrserker Acero
-Corsola de Galar Fantasma
+CorsoladeGalar Fantasma
 Cursola Fantasma
-Farfetch'd de Galar Lucha
+Farfetch'ddeGalar Lucha
 Sirfetch'd Lucha
-Mr. Mime de Galar Hielo Psíquico
-Mr. Rime Hielo Psíquico
-Yamask de Galar Tierra Fantasma
+Mr.MimedeGalar Hielo Psíquico
+Mr.Rime Hielo Psíquico
+YamaskdeGalar Tierra Fantasma
 Runerigus Tierra Fantasma
 Milcery Hada
 Alcremie Hada
@@ -914,9 +914,9 @@ Calyrex Psíquico Planta
 Wyrdeer Normal Psíquico
 Kleavor Bicho Roca
 Basculegion Agua Fantasma
-Sneasel de Hisui Lucha Veneno
+SneaseldeHisui Lucha Veneno
 Sneasler Lucha Veneno
-Qwilfish de Hisui Siniestro Veneno
+QwilfishdeHisui Siniestro Veneno
 Overqwil Siniestro Veneno
 Enamorus Hada Volador
 Sprigatito Planta
@@ -992,21 +992,21 @@ Cetitan Hielo
 Veluza Agua Psíquico
 Dondozo Agua
 Tatsugiri Dragón Agua
-Wooper de Paldea Veneno Tierra
+WooperdePaldea Veneno Tierra
 Clodsire Veneno Tierra
 Farigiraf Normal Psíquico
-Great Tusk Tierra Lucha
-Scream Tail Hada Psíquico
-Brute Bonnet Planta Siniestro
-Flutter Mane Fantasma Hada
-Slither Wing Bicho Lucha
-Sandy Shocks Eléctrico Tierra
-Iron Treads Tierra Acero
-Iron Bundle Hielo Agua
-Iron Hands Lucha Eléctrico
-Iron Jugulis Siniestro Volador
-Iron Moth Fuego Veneno
-Iron Thorns Roca Eléctrico
+GreatTusk Tierra Lucha
+ScreamTail Hada Psíquico
+BruteBonnet Planta Siniestro
+FlutterMane Fantasma Hada
+SlitherWing Bicho Lucha
+SandyShocks Eléctrico Tierra
+IronTreads Tierra Acero
+IronBundle Hielo Agua
+IronHands Lucha Eléctrico
+IronJugulis Siniestro Volador
+IronMoth Fuego Veneno
+IronThorns Roca Eléctrico
 Frigibax Dragón Hielo
 Arctibax Dragón Hielo
 Baxcalibur Dragón Hielo
@@ -1016,12 +1016,12 @@ Wo-Chien Siniestro Planta
 Chien-Pao Siniestro Hielo
 Ting-Lu Siniestro Tierra
 Chi-Yu Siniestro Fuego
-Roaring Moon Dragón Siniestro
-Iron Valiant Hada Lucha
+RoaringMoon Dragón Siniestro
+IronValiant Hada Lucha
 Koraidon Lucha Dragón
 Miraidon Eléctrico Dragón
-Walking Wake Agua Dragón
-Iron Leaves Planta Psíquico
+WalkingWake Agua Dragón
+IronLeaves Planta Psíquico
 Poltchageist Planta Fantasma
 Sinistcha Planta Fantasma
 Okidogi Veneno Lucha
@@ -1029,9 +1029,9 @@ Munkidori Veneno Psíquico
 Fezandipiti Veneno Hada
 Ogerpon Planta
 Archaludon Acero Dragón
-Gouging Fire Fuego Dragón
-Raging Bolt Eléctrico Dragón
-Iron Boulder Roca Psíquico
-Iron Crown Acero Psíquico
+GougingFire Fuego Dragón
+RagingBolt Eléctrico Dragón
+IronBoulder Roca Psíquico
+IronCrown Acero Psíquico
 Terapagos Normal
 Pecharunt Veneno Fantasma
