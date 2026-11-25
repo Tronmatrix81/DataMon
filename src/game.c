@@ -18,22 +18,8 @@ void newGame(void) {
 
     player.wins = 0;
     player.pokemonTeam.size = 0;
-    player.backpack.itemQuantity = 1;
-    strcpy(player.backpack.items[0].name, "healthPotion");
-    player.backpack.items[0].quantity = 1;
-    player.backpack.items[0].health = random2(1, 30);
-
-    Pokemon *starter = randomPokemon();
-    if (starter != NULL) {
-        starter->lvl = 5;
-        starter->hp = random2(1, 3) * starter->lvl + 20;
-        asociardañomovimientos(starter);
-        add_pokemon(*starter);
-        player.pokemonTeam.fighter = player.pokemonTeam.pokemons[0];
-        free(starter);
-    } else {
-        printf(ROJO "Error: No se pudo cargar ../data/pokemons.txt\n" RESET);
-    }
+    add_item("healthPotion", 1);
+    add_pokemon(*randomPokemon());
 
     saveGame(player);
 
