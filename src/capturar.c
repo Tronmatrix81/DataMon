@@ -1,73 +1,176 @@
-mov movimientoshasheados[151];
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include "../include/models.h"
+#include "../include/player.h"
+#include "../include/storage.h"
 
-// 1. Convierte el nombre del movimiento en un número del 0 al 150
-int fhash(char cadena[])
+#define MAX_POKEMONES 1038
+
+void limpiar_buffer(void)
 {
-    int hasheo = 0;
-    for (int i = 0; cadena[i] != '\0'; i++)
+    int c = getchar();
+    while (c != '\n' && c != EOF)
     {
-        hasheo = (hasheo * 31 + (unsigned char)cadena[i]) % 151;
-    }
-    return hasheo;
-}
-
-// 2. Lee movements.txt y guarda cada movimiento en su casilla hash
-void leermovimientos(void)
-{
-    FILE *arch;
-    char nombre_temp[50];
-    int dano_temp;
-    int pos;
-
-    // Marcamos todas las casillas como vacías (-1)
-    for (int i = 0; i < 151; i++)
-    {
-        movimientoshasheados[i].daño = -1;
-    }
-
-    arch = fopen("../data/movements.txt", "rt");
-    if (arch != NULL)
-    {
-        for (int i = 0; i < 72; i++)
-        {
-            fscanf(arch, "%s %i", nombre_temp, &dano_temp);
-            pos = fhash(nombre_temp);
-
-            // Si la casilla ya está ocupada por otro ataque, avanza a la siguiente
-            while (movimientoshasheados[pos].daño != -1)
-            {
-                pos = (pos + 1) % 151;
-            }
-
-            strcpy(movimientoshasheados[pos].movimiento, nombre_temp);
-            movimientoshasheados[pos].daño = dano_temp;
-        }
-        fclose(arch);
+        c = getchar();
     }
 }
 
-// 3. Función auxiliar muy corta para buscar el daño de UN solo movimiento
-int buscar_dano(char nombre_mov[])
+int leer_especies(Species lista[])
 {
-    int pos = fhash(nombre_mov);
+    FILE *archivo = fopen("../data/pokemons.txt", "rt");
+    int total = 0;
 
-    while (movimientoshasheados[pos].daño != -1)
+    if (archivo == NULL)
     {
-        if (strcmp(movimientoshasheados[pos].movimiento, nombre_mov) == 0)
-        {
-            return movimientoshasheados[pos].daño;
-        }
-        pos = (pos + 1) % 151;
+        return 0;
     }
-    return 1; // Si por algo no lo encuentra, devuelve 1
+
+    while (total < MAX_POKEMONES &&
+           fscanf(archivo, "%s %s %s %s %s %s",
+                  lista[total].name,
+                  lista[total].type,
+                  lista[total].movements[0].movimiento,
+                  lista[total].movements[1].movimiento,
+                  lista[total].movements[2].movimiento,
+                  lista[total].movements[3].movimiento) == 6)
+    {
+        total++;
+    }
+
+    fclose(archivo);
+    return total;
 }
 
-// 4. Le pone el daño real (daño base * nivel) a los 4 ataques de cualquier Pokemon
-void asociardañomovimientos(Pokemon *poke)
+Pokemon generar_salvaje(Species lista[], int total)
 {
+    Pokemon salvaje;
+    int idx = rand() % total;
+
+    strcpy(salvaje.name, lista[idx].name);
+    strcpy(salvaje.type, lista[idx].type);
+    salvaje.lvl = 1 + rand() % 50;
+    salvaje.hp = 20 + salvaje.lvl * 2;
+
     for (int i = 0; i < 4; i++)
     {
-        int dano_base = buscar_dano(poke->movements[i].movimiento);
-        poke->movements[i].daño = dano_base * poke->lvl;
+        strcpy(salvaje.movements[i].movimiento, lista[idx].movements[i].movimiento);
+        salvaje.movements[i].daño = 0;
+    }
+
+    asociardañomovimientos(&salvaje);
+    return salvaje;
+}
+
+int luchar_salvaje(int vida)
+{
+    int dano = 10 + rand() % 16;
+    vida -= dano;
+    if (vida < 0)
+    {
+        vida = 0;
+    }
+
+    printf("\nLe hiciste %d de daño. Vida restante: %d\n", dano, vida);
+    return vida;
+}
+
+void capturar_pokemon(Pokemon salvaje)
+{
+    salvaje.hp = 20 + salvaje.lvl * 2;
+    add_pokemon(salvaje);
+    printf("\n¡Capturaste a %s nivel %d y se agregó a tu equipo!\n", salvaje.name, salvaje.lvl);
+}
+
+void mostrar_menu_captura(Pokemon salvaje)
+{
+    printf("\n--- %s [%s] (Nivel %d) | Vida: %d ---\n", salvaje.name, salvaje.type, salvaje.lvl, salvaje.hp);
+    printf("1. Luchar\n");
+    if (salvaje.hp > 0)
+    {
+        printf("2. Capturar (bloqueado: primero debes dejar su vida en 0)\n");
+    }
+    else
+    {
+        printf("2. Capturar\n");
+    }
+    printf("3. Huir\n");
+    printf("Elige una opción: ");
+}
+
+void buscar_pokemon(void)
+{
+    static Species especies[MAX_POKEMONES];
+    static int total = 0;
+    static int semilla_lista = 0;
+    int opcion;
+    int terminar = 0;
+
+    if (semilla_lista == 0)
+    {
+        srand(time(NULL));
+        semilla_lista = 1;
+    }
+
+    if (total == 0)
+    {
+        total = leer_especies(especies);
+        if (total == 0)
+        {
+            printf("No se pudo leer ../data/pokemons.txt.\n");
+            return;
+        }
+    }
+
+    Pokemon salvaje = generar_salvaje(especies, total);
+    printf("\n¡Apareció un %s (%s) nivel %d!\n", salvaje.name, salvaje.type, salvaje.lvl);
+
+    while (terminar == 0)
+    {
+        mostrar_menu_captura(salvaje);
+
+        if (scanf("%d", &opcion) != 1)
+        {
+            limpiar_buffer();
+            opcion = 0;
+        }
+
+        if (opcion == 1)
+        {
+            if (salvaje.hp > 0)
+            {
+                salvaje.hp = luchar_salvaje(salvaje.hp);
+                if (salvaje.hp == 0)
+                {
+                    printf("¡Debilitaste a %s! Ya puedes capturarlo.\n", salvaje.name);
+                }
+            }
+            else
+            {
+                printf("\n%s ya está debilitado, ¡captúralo!\n", salvaje.name);
+            }
+        }
+        else if (opcion == 2)
+        {
+            if (salvaje.hp > 0)
+            {
+                printf("\nNo puedes capturarlo todavía, primero debes luchar hasta que su vida sea 0.\n");
+            }
+            else
+            {
+                capturar_pokemon(salvaje);
+                terminar = 1;
+            }
+        }
+        else if (opcion == 3)
+        {
+            printf("\nHuiste del combate.\n");
+            terminar = 1;
+        }
+        else
+        {
+            printf("\nOpción no válida.\n");
+        }
     }
 }

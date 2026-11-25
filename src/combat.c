@@ -16,13 +16,12 @@ int fhash(char cadena[])
     return hasheo % 151;
 }
 
-void leermovimientos()
+void leermovimientos(void)
 {
     int hasheo;
     mov *movimientos[72];
     FILE *arch;
 
-    // Inicializamos la tabla hash en NULL
     for (int i = 0; i < 151; i++)
         movimientoshasheados[i] = NULL;
 
@@ -31,7 +30,6 @@ void leermovimientos()
     {
         for (int i = 0; i < 72; i++)
         {
-            // Reservamos memoria para cada movimiento antes de leerlo
             movimientos[i] = (mov *)malloc(sizeof(mov));
             fscanf(arch, "%s %i", movimientos[i]->movimiento, &movimientos[i]->daño);
 
@@ -64,34 +62,48 @@ void asociardañomovimientos(Pokemon *poke)
         }
     }
 }
-PokemonTeam enemyTeam = NULL;
 
-PokemonTeam random_enemyteam()
+PokemonTeam enemyTeam;
+
+PokemonTeam random_enemyteam(void)
 {
-    PokemonTeam enemyTeam = (PokemonTeam *)malloc(sizeof(PokemonTeam));
-    if (enemyTeam != NULL)
+    PokemonTeam teamTemp;
+    teamTemp.size = 6;
+    for (int i = 0; i < 6; i++)
     {
-        for (int i = 0; i < 6; i++)
-            enemyTeam.pokemons[i] = randomPokemon();
+        Pokemon *p = randomPokemon();
+        if (p != NULL)
+        {
+            teamTemp.pokemons[i] = *p;
+            asociardañomovimientos(&teamTemp.pokemons[i]);
+            free(p);
+        }
     }
+    teamTemp.fighter = teamTemp.pokemons[0];
+    return teamTemp;
 }
 
 void takeDamage(Pokemon *pokemon, int amount)
 {
     pokemon->hp -= amount;
+    if (pokemon->hp < 0)
+    {
+        pokemon->hp = 0;
+    }
 }
 
-void arena()
+void arena(void)
 {
     enemyTeam = random_enemyteam();
-    int turn = random2(0, 1); // player is 0, enemy is 1
+    int turn = random2(0, 1);
     int opc = -1;
-    char[50] choice;
+    char choice[50];
     int enemyChoice = 0;
-    while (team.fighter.hp > 0 && enemyTeam.fighter.hp > 0)
+
+    while (player.pokemonTeam.fighter.hp > 0 && enemyTeam.fighter.hp > 0)
     {
         printf("\nTu %s (HP: %d) vs %s enemigo (HP: %d)\n",
-               team.fighter.name, team.fighter.hp,
+               player.pokemonTeam.fighter.name, player.pokemonTeam.fighter.hp,
                enemyTeam.fighter.name, enemyTeam.fighter.hp);
         if (turn == 0)
         {
@@ -128,33 +140,40 @@ void arena()
                 use_potion(choice);
                 break;
             }
-            turn++;
+            turn = 1;
         }
         else
         {
-            enemyChoice = random(0, 3);
+            enemyChoice = random2(0, 3);
             if (enemyChoice != 3)
             {
-                takeDamage(team->fighter, 15);
-                printf("\nTe hizo 15 de danio...");
+                int dano_enemigo = enemyTeam.fighter.movements[enemyChoice].daño;
+                takeDamage(&player.pokemonTeam.fighter, dano_enemigo);
+                printf("\nUso %s y te hizo %d de danio...",
+                       enemyTeam.fighter.movements[enemyChoice].movimiento,
+                       dano_enemigo);
             }
             else
             {
                 enemyTeam.fighter.hp += 10;
                 printf("\nSe tomo una pocion...");
             }
-            turn--;
+            turn = 0;
         }
     }
 
-     updateRanking(&player);
+    updateRanking(player);
 }
 
 int main(void)
 {
-    randomPokemon();
     leermovimientos();
-    asociardañomovimientos();
+    Pokemon *test = randomPokemon();
+    if (test != NULL)
+    {
+        asociardañomovimientos(test);
+        free(test);
+    }
 
     return 0;
 }
