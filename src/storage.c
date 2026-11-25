@@ -73,7 +73,7 @@ void saveGame(Player player) {
     }
 }
 
-int loadGame(Player *player) {
+void loadGame(Player *player) {
     printf("Cargando el juego...\n");
 
     char filePath[] = "../saves/";

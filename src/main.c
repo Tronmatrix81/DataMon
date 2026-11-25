@@ -2,10 +2,14 @@
 #include <stdlib.h>
 #include <string.h>
 #include <time.h>
-#include "storage.h"
-#include "player.h"
-#include "game.h"
-#include "ui.h"
+#include "../include/storage.h"
+#include "../include/player.h"
+#include "../include/game.h"
+#include "../include/ui.h"
+#include "../include/combat.h"
+
+void leermovimientos(void);
+void asociardañomovimientos(Pokemon *poke);
 
 int main(void) {
     int hayPartidas;
@@ -25,14 +29,18 @@ int main(void) {
                 fgets(player.name, sizeof(player.name), stdin);
                 player.name[strcspn(player.name, "\n")] = '\0';
 
-                if (loadGame(&player)) {
+                player.pokemonTeam.size = 0;
+                loadGame(&player);
+
+                if (player.pokemonTeam.size > 0) {
                     for (int i = 0; i < player.pokemonTeam.size; i++) {
                         asociardañomovimientos(&player.pokemonTeam.pokemons[i]);
                     }
-                    if (player.pokemonTeam.size > 0) {
-                        player.pokemonTeam.fighter = player.pokemonTeam.pokemons[0];
-                    }
+                    player.pokemonTeam.fighter = player.pokemonTeam.pokemons[0];
                     gameMenu(&player);
+                } else {
+                    printf("\nPresione Enter para continuar...");
+                    getchar();
                 }
             }
             else if (opt == 1) {

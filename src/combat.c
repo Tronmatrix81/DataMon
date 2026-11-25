@@ -162,18 +162,6 @@ void arena(void)
         }
     }
 
-    updateRanking(player);
+    updateRanking(&player);
 }
 
-int main(void)
-{
-    leermovimientos();
-    Pokemon *test = randomPokemon();
-    if (test != NULL)
-    {
-        asociardañomovimientos(test);
-        free(test);
-    }
-
-    return 0;
-}

@@ -3,43 +3,51 @@
 #include <string.h>
 #include "../include/models.h"
 #include "../include/player.h"
-
-void print_team()
+Player player;
+void print_team(void)
 {
-    for (int i = 0; i < 6; i++)
-        if (player.pokemonTeam.pokemons[i] != NULL)
-            printf("%s, %i, %i\n", player.pokemonTeam.pokemons[i].name, player.pokemonTeam.[i].lvl, player.pokemonTeam.[i].hp);
+    for (int i = 0; i < player.pokemonTeam.size; i++)
+    {
+        printf("%d) %s | Nivel: %i | HP: %i\n",
+               i + 1,
+               player.pokemonTeam.pokemons[i].name,
+               player.pokemonTeam.pokemons[i].lvl,
+               player.pokemonTeam.pokemons[i].hp);
+    }
 }
 
-void print_backpack()
+void print_backpack(void)
 {
-    for (int i = 0; i < backpack->itemQuantity; i++)
-        if (player.backpack.items[i] != NULL)
-            printf("%s (%ix)\n", player.backpack.items[i].name, player.backpack.items[i].quantity);
+    for (int i = 0; i < player.backpack.itemQuantity; i++)
+    {
+        printf("%d) %s (%ix)\n",
+               i + 1,
+               player.backpack.items[i].name,
+               player.backpack.items[i].quantity);
+    }
 }
 
 void add_item(char name[50], int quantity)
 {
-    if (player.backpack.itemQuantity < 5)
+    for (int i = 0; i < player.backpack.itemQuantity; i++)
     {
-        for (int i = 0; i < player.backpack.itemQuantity; i++)
+        if (strcmp(player.backpack.items[i].name, name) == 0)
         {
-            if (strcmp(player.backpack.items[i].name, name) == 0)
-            {
-                player.backpack.items[i].quantity++;
-                return;
-            }
-        }
-        Items item = (Items *)malloc(sizeof(Items));
-        if (item != NULL)
-        {
-            strcpy(item.name, name);
-            item.quantity = quantity;
-            player.backpack.itemQuantity++;
-            player.backpack.items[player.backpack.itemQuantity] = item;
+            player.backpack.items[i].quantity += quantity;
             return;
         }
     }
+
+    if (player.backpack.itemQuantity < 5)
+    {
+        int idx = player.backpack.itemQuantity;
+        strcpy(player.backpack.items[idx].name, name);
+        player.backpack.items[idx].quantity = quantity;
+        player.backpack.items[idx].health = 25;
+        player.backpack.itemQuantity++;
+        return;
+    }
+
     printf("\nUnable to add item...\n");
 }
 
@@ -47,8 +55,8 @@ void add_pokemon(Pokemon pokemon)
 {
     if (player.pokemonTeam.size < 6)
     {
-        player.pokemonTeam.size++;
         player.pokemonTeam.pokemons[player.pokemonTeam.size] = pokemon;
+        player.pokemonTeam.size++;
         return;
     }
     printf("\nUnable to add pokemon to team...\n");
@@ -56,7 +64,7 @@ void add_pokemon(Pokemon pokemon)
 
 void select_fighter(char name[50])
 {
-    for (int i = 0; i < 6; i++)
+    for (int i = 0; i < player.pokemonTeam.size; i++)
     {
         if (strcmp(player.pokemonTeam.pokemons[i].name, name) == 0)
         {
@@ -69,13 +77,21 @@ void select_fighter(char name[50])
 
 void use_potion(char name[50])
 {
-    for (int i = 0; i < 5; i++)
+    for (int i = 0; i < player.backpack.itemQuantity; i++)
     {
-        if (strcmp(backpack->items[i].name, name) == 0)
+        if (strcmp(player.backpack.items[i].name, name) == 0)
         {
             player.pokemonTeam.fighter.hp += player.backpack.items[i].health;
-            player.backpack.itemQuantity--;
-            free(player.backpack.items[i]);
+            player.backpack.items[i].quantity--;
+
+            if (player.backpack.items[i].quantity <= 0)
+            {
+                for (int j = i; j < player.backpack.itemQuantity - 1; j++)
+                {
+                    player.backpack.items[j] = player.backpack.items[j + 1];
+                }
+                player.backpack.itemQuantity--;
+            }
             return;
         }
     }

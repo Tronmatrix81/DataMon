@@ -8,7 +8,8 @@ int hasSavedGames();
 void saveGame(Player player);
 void loadGame(Player *player);
 void readRanking();
-void updateRanking(Player player);
+void readStats(void);
+void updateRanking(Player *player);
 Pokemon *searchPokemon();
 Pokemon *randomPokemon();
 

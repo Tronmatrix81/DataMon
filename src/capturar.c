@@ -6,8 +6,9 @@
 #include "../include/player.h"
 #include "../include/storage.h"
 
-#define MAX_POKEMONES 1038
 
+#define MAX_POKEMONES 1038
+void asociardañomovimientos(Pokemon *poke);
 void limpiar_buffer(void)
 {
     int c = getchar();
