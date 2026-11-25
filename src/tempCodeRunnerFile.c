@@ -1,0 +1,65 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+typedef struct pokemon{
+
+    char nombre[50];
+    char t1[50]; //tipo de elemento 1
+    char t2[50]; //tipo de elemento 2
+    int vida;
+    struct pokemon *sig;
+} poke;
+
+poke *arreglo[2];
+
+int partidahecha=0;
+int main(void){
+
+    
+    int opc;
+    while(1){
+
+        printf("\n1)Ver equipo (mostar todos los datamon que ya ha capturado: nombre, nivel, vida)\n2)Buscar DataMon salvaje\n3)Ir a Arena\n4)Ver Mochila (los objetos se ganan en las peleas en la arena)\n5)Centro de curación, recuperar la vida (solo si tiene pociones de vida en la mochila, debe indicar a cual datamon)\n6)Guardar partida (guardar el equipo y la mochila en un archivo de nombres dados por el usuario)\n7)Volver al menú principal\n");
+        scanf(opc);
+        if (partidahecha==0)
+        {
+            partidahecha=1;
+            srand(time(NULL));
+            
+            
+
+
+        }
+        
+        
+        switch (opc)
+        {
+        case 1:
+            /* code */
+            break;
+        case 2:
+            /* code */
+            break;
+        case 3:
+            /* code */
+            break;
+        case 4:
+            /* code */
+            break;
+        case 5:
+            /* code */
+            break;
+        case 6:
+            /* code */
+            break;
+        case 7:
+            /* code */
+            break;
+        
+        default:
+            break;
+        }
+    }
+
+    return 0;
+}
