@@ -1,74 +1,68 @@
-#include "../include/models.h"
+#include <stdio.h>
+#include <string.h>
+#include "game.h"
+#include "ui.h"
+#include "storage.h"
+#include "utils.h"
+#include "combat.h"
 
-void healingCenter(Player *player)
-{
+void newGame() {
+    Player player;
+    
+    printf("DATAMON - NUEVO JUEGO\n");
+    printf("Ingrese el nombre de su entrenador: ");
+    fgets(player.name, sizeof(player.name), stdin);
+    player.name[strcspn(player.name, "\n")] = '\0'; // Eliminar el salto de línea
+    player.wins = 0;
+    player.pokemonTeam.size = 0;
+    player.backpack.itemQuantity = 1;
+    strcat(player.backpack.items[0].name, "healthPotion");
+    player.backpack.items[0].quantity = 1;
+    player.backpack.items[0].health = random2(1, 30);
+}
+
+void gameMenu(Player *player) {
     const char *opciones[] = {
         "Curar a todo el equipo",
         "Recargar pociones en la mochila",
         "Salir del Centro de Curacion"
     };
 
-    while (1)
-    {
-        int opc = seleccionarMenu("CENTRO DE CURACION DATAMON", opciones, 3);
+    while (1) {
+        int opc = seleccionarMenu("DATAMON - EN PARTIDA", opciones, 7);
 
-        if (opc == 0)
-        {
-            if (player->pokemonTeam.size == 0)
-            {
-                printf( "\nNo tienes ningun DataMon en tu equipo todavia.\n" );
-            }
-            else
-            {
-                for (int i = 0; i < player->pokemonTeam.size; i++)
-                {
-                    player->pokemonTeam.pokemons[i].hp = 20 + player->pokemonTeam.pokemons[i].lvl * 2;
-                }
+        switch (opc) {
+        case 0: // 1) Ver equipo
+            // showTeam(player);
+            printf(CYAN "\nMostrando equipo de %s...\n" RESET, player->name);
+            break;
 
-                if (player->pokemonTeam.fighter.lvl > 0)
-                {
-                    player->pokemonTeam.fighter.hp = 20 + player->pokemonTeam.fighter.lvl * 2;
-                }
+        case 1: // 2) Buscar DataMon salvaje
+            // wildEncounter(player);
+            printf(VERDE "\nBuscando DataMon salvaje en la hierba...\n" RESET);
+            break;
 
-                printf( "\n¡Todos tus DataMon han recuperado su salud al maximo!\n" );
-                for (int i = 0; i < player->pokemonTeam.size; i++)
-                {
-                    printf("- %s (Nivel %d) -> HP: %d\n",
-                           player->pokemonTeam.pokemons[i].name,
-                           player->pokemonTeam.pokemons[i].lvl,
-                           player->pokemonTeam.pokemons[i].hp);
-                }
-            }
-        }
-        else if (opc == 1)
-        {
-            int encontrada = 0;
-            for (int i = 0; i < player->backpack.itemQuantity; i++)
-            {
-                if (strcmp(player->backpack.items[i].name, "healthPotion") == 0)
-                {
-                    player->backpack.items[i].quantity += 2;
-                    encontrada = 1;
-                    printf( "\nSe agregaron 2 pociones. Total actual: %d\n" ,
-                           player->backpack.items[i].quantity);
-                    break;
-                }
-            }
+        case 2: // 3) Ir a Arena
+            // startArena(player);
+            printf(ROJO "\nEntrando a la Arena de combate...\n" RESET);
+            break;
 
-            if (!encontrada && player->backpack.itemQuantity < 5)
-            {
-                int idx = player->backpack.itemQuantity;
-                strcpy(player->backpack.items[idx].name, "healthPotion");
-                player->backpack.items[idx].quantity = 2;
-                player->backpack.items[idx].health = 25;
-                player->backpack.itemQuantity++;
-                printf( "\nRecibiste 2 healthPotion en tu mochila.\n" );
-            }
-        }
-        else if (opc == 2)
-        {
-            printf( "\nSaliendo del Centro de Curacion...\n" );
-            return;
+        case 3: // 4) Ver Mochila
+            // showBag(player);
+            printf(AMARILLO "\nAbriendo mochila...\n" RESET);
+            break;
+
+        case 4: // 5) Centro de curacion
+            // healingCenter(player);
+            printf(VERDE "\nBienvenido al Centro de Curacion.\n" RESET);
+            break;
+
+        case 5: // 6) Guardar partida
+            saveGame(*player);
+            break;
+
+        case 6: // 7) Volver al menu principal
+            return; // Sale del while(1) y regresa a newGame() / loadGame()
         }
 
         printf("\nPresione Enter para continuar...");
