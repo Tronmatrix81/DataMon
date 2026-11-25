@@ -194,8 +194,13 @@ Pokemon *searchPokemon(const char *name)
         {
             if (fgets(buffer, sizeof(buffer), arch) != NULL)
             {
-                sscanf(buffer, "%s %s %s %s %s %s", pokemon->name, pokemon->type, pokemon->movements[0],
-                       pokemon->movements[1], pokemon->movements[2], pokemon->movements[3]);
+                sscanf(buffer, "%s %s %s %s %s %s",
+       pokemon->name,
+       pokemon->type,
+       pokemon->movements[0].movimiento,
+       pokemon->movements[1].movimiento,
+       pokemon->movements[2].movimiento,
+       pokemon->movements[3].movimiento);
                 if (strcmp(pokemon->name, name) == 0)
                 {
                     pokemon->lvl = random2(1, 100);
@@ -227,8 +232,13 @@ Pokemon *randomPokemon()
             {
                 if (i == random - 1)
                 {
-                    sscanf(buffer, "%s %s %s %s %s %s", pokemon->name, pokemon->type, pokemon->movements[0],
-                       pokemon->movements[1], pokemon->movements[2], pokemon->movements[3]);
+                   sscanf(buffer, "%s %s %s %s %s %s",
+       pokemon->name,
+       pokemon->type,
+       pokemon->movements[0].movimiento,
+       pokemon->movements[1].movimiento,
+       pokemon->movements[2].movimiento,
+       pokemon->movements[3].movimiento);
                     fclose(arch);
                     return pokemon;
                 }
