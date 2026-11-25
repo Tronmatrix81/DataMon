@@ -26,17 +26,17 @@ int main(void) {
 
         case 1:
             CLEAR;
-            newGame();
+            //newGame();
             break;
 
         case 2:
             CLEAR;
-            loadGame();
+            //loadGame();
             break;
 
         case 3:
             CLEAR;
-            stats();
+            //stats();
             break;
         
         default:
