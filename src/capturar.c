@@ -171,6 +171,6 @@ void buscar_pokemon(void)
         else
         {
             printf("\nOpción no válida.\n");
-        }
+        }   
     }
 }
