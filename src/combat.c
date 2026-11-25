@@ -16,7 +16,7 @@ int fhash(char cadena[])
     return hasheo % 151;
 }
 
-void leermovimientos(void)
+void leermovimientos()
 {
     int hasheo;
     mov *movimientos[72];

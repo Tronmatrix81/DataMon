@@ -1,1 +1,0 @@
-// wildEncounter(), startArena(), quickAttack(), sparkAttack(), tryCapture()

@@ -4,7 +4,7 @@
 #include "ui.h"
 #include "storage.h"
 #include "utils.h"
-// #include "battle.h" // Descomentar cuando conectemos el módulo de combate
+#include "combat.h"
 
 void newGame() {
     Player player;
