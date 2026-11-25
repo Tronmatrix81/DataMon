@@ -4,6 +4,7 @@
 #include "../include/storage.h"
 #include "../include/models.h"
 #include "../include/utils.h"
+#include "../include/game.h"
 
 // temporary
 #include <time.h>
@@ -97,6 +98,8 @@ void loadGame(Player *player) {
     }
 
     fclose(save);
+
+    gameMenu(player);
 }
 
 void readStats() {
