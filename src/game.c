@@ -5,6 +5,7 @@
 #include "storage.h"
 #include "utils.h"
 #include "combat.h"
+#include "player.h"
 
 void newGame() {
     Player player;
@@ -19,6 +20,15 @@ void newGame() {
     strcat(player.backpack.items[0].name, "healthPotion");
     player.backpack.items[0].quantity = 1;
     player.backpack.items[0].health = random2(1, 30);
+    add_pokemon(*randomPokemon());
+
+    saveGame(player);
+
+    printf("Enhorabuena! Conseguiste a %s", player.pokemonTeam.pokemons[0].name);
+    printf("Conseguiste una pocion de vida! (%d)", player.backpack.items[0].health);
+    printf("Listo para empezar tu aventura!\n");
+
+    gameMenu(&player);
 }
 
 void gameMenu(Player *player) {
